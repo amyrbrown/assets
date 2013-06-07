@@ -6,7 +6,7 @@
 * Matt Davis (Space Telescope Science Institute / mrdavis@stsci.edu)
 * Luis Figueira (Queen Mary, University of London / luis.figueira@eecs.qmul.ac.uk)
 * Richard "Tommy" Guy (Wave Accounting / richardtguy84@gmail.com)
-* Edward Hart (University of British Columbia / ehart@zoology.ubc.ca)
+* Edmund Hart (University of British Columbia / ehart@zoology.ubc.ca)
 * Neil Chue Hong (Software Sustainability Institute / N.ChueHong@epcc.ed.ac.uk)
 * Katy Huff (University of  Wisconsin / khuff@cae.wisc.edu)
 * Michael Jackson (Edinburgh Parallel Computing Centre / michaelj@epcc.ed.ac.uk)
