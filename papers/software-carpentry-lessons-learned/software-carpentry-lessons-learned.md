@@ -230,7 +230,8 @@ and who is likely senior to those faculty advocating the change.
 > _It Adds Up_
 > 
 > Saying, "We'll just add a little computing to every other course," is a cheat:
-> five minutes per hour adds up to four entire courses in a four-year program.
+> five minutes per hour equals four entire courses in a four-year program,
+> which is unlikely to ever be implemented.
 > Pushing computing down to the high school level is also a non-starter,
 > since that curriculum is also full.
 
@@ -296,7 +297,7 @@ there were several disappointments:
    the MOOC format didn't work:
    only 5-10% of those who started with us finished,
    and the majority were people who already knew most of the material.
-   Both figures are in line with completion rates and learner demographics for other MOOCs,
+   Both figures are in line with completion rates and learner demographics for other MOOCs (Jordan2013),
    but are no less disappointing because of that.
 
 The biggest take-away from this round was the need come up with a scalable, sustainable model.
@@ -365,7 +366,7 @@ So what does a typical boot camp look like?
   and to getting the computer to repeat things
   (via command completion, history, and loops)
   so that people don't have to.
-* _Day 1 p.m._:
+* _Day 1 p.m._: Version control.
   We begin by emphasizing how it's a better way to collaborate than FTP or Dropbox,
   but end by showing them how it's essential for making computational research reproducible.
 * _Day 1 p.m._:
@@ -484,11 +485,10 @@ or members of the local open source community;
 where possible,
 we aim to have at least one helper for every eight learners.
 
-We find workshops go a lot better if people come in groups,
-e.g.,
-4-5 people from one lab,
-half a dozen from another department or institute,
-etc.
+We find workshops go a lot better if people come in groups
+(e.g., 4-5 people from one lab)
+or have other pre-existing ties
+(e.g., the same disciplinary background).
 They are less inhibited about asking questions,
 and can support each other
 (morally and technically)
@@ -526,7 +526,7 @@ _Open lessons_
     and offer those back by sending us a pull request on GitHub.
     As mentioned earlier,
     this workflow is still foreign to most educators,
-    but it is allowing us to scale more quickly and more cheaply
+    but it is allowing us to scale and adapt more quickly and more cheaply
     than the centralized approaches being taken by many high-profile online education ventures.
 _Use what we teach_
 :   We also make a point of eating our own cooking,
@@ -627,7 +627,7 @@ _To learn new things, or learn old things in more detail._
     is a great way to learn more about the tools,
     as well as about teaching.
 _It's fun._
-:   Our instructors get to work with smart people who actually want to be  in the room,
+:   Our instructors get to work with smart people who actually want to be in the room,
     and don't have to mark anything afterward.
     It's a refreshing change from teaching undergraduate calculus...
 
@@ -760,6 +760,17 @@ our learners quite reasonably ask,
 Saying,
 "One part in a million, just because," isn't satisfying...
 
+Both of the previous points tie into the challenge of
+standardizing curriculum across a large group of volunteer instructors
+with very different backgrounds and interests.
+What we _actually_ teach varies more widely than
+the content of most university courses with prescribed curricula.
+This isn't necessarily a bad thing---one of the reasons
+we recruit instructors from among scientists is so that
+they can customize content and delivery for local needs---but
+we need to be more systematic about varying on purpose
+rather than by accident.
+
 Finally,
 we try to make our teaching as interactive as possible,
 but we still don't give learners hands-on exercises
@@ -796,9 +807,11 @@ we'd like to hear from you.
 
 ## Bibliography
 
-Aranda2012: Jorge Aranda: Report on Software Carpentry. FIXME: need citation.
+Aranda2012: Jorge Aranda: Report on Software Carpentry.  [https://github.com/swcarpentry/assets/blob/master/assessment/5.0/aranda-assessment-report-2012-07.pdf](https://github.com/swcarpentry/assets/blob/master/assessment/5.0/aranda-assessment-report-2012-07.pdf), viewed 2013-06-10.
 
-Cook2012: John D. Cook: "Moore's law squared".  http://www.johndcook.com/blog/2012/01/01/moores-law-squared/, viewed 2013-05-17.
+Cook2012: John D. Cook: "Moore's law squared".  [http://www.johndcook.com/blog/2012/01/01/moores-law-squared/](http://www.johndcook.com/blog/2012/01/01/moores-law-squared/), viewed 2013-05-17.
+
+Jordan2013: Katy Jordan: "MOOC Competion Rates: The Data". [http://www.katyjordan.com/MOOCproject.html](http://www.katyjordan.com/MOOCproject.html), viewed 2013-06-10.
 
 Wilson1996: Gregory V. Wilson: "What Should Computer Scientists Teach to Physical Scientists and Engineers?" *IEEE Computational Science & Engineering*, Summer-Fall 1996.
 
