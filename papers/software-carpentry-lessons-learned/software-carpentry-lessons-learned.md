@@ -1,5 +1,9 @@
 # Software Carpentry: Lessons Learned
 
+Greg Wilson (Software Carpentry / gvwilson@software-carpentry.org)
+
+With contributions from:
+
 * Azalee Bostroem (Space Telescope Science Institute / bostroem@stsci.edu)
 * Chris Cannam (Queen Mary, University of London / chris.cannam@eecs.qmul.ac.uk)
 * Stephen Crouch (Software Sustainability Institute / s.crouch@software.ac.uk)
@@ -18,7 +22,6 @@
 * Ben Waugh (University College London / b.waugh@ucl.ac.uk)
 * Lynne J. Williams (Rotman Research Institute / lwilliams@research.baycrest.org)
 * Ethan White (Utah State University / ethan@weecology.org)
-* Greg Wilson (Software Carpentry / gvwilson@software-carpentry.org)
 
 ## Abstract
 
@@ -26,7 +29,7 @@ Over the last 15 years,
 Software Carpentry has evolved from
 a week-long training course at the US national laboratories
 into a worldwide volunteer effort to raise standards in scientific computing.
-This article explain what we have learned along the way
+This article explains what we have learned along the way
 the challenges we now face,
 and our plans for the future.
 
@@ -672,20 +675,24 @@ and it seems unfair to charge some but not others.
 We are currently exploring other possibilities,
 including various forms of sponsorship.
 
-Our third big challenge is a longer-term issue.
-We believe we're helping scientists be more productive,
-but we're only just starting to do
-the long-term, quantitative follow-up needed to prove this.
-This is only partly because of limited resources:
-the fact is,
+Third,
+while we believe we're helping scientists,
+we have not yet done the long-term follow-up needed to prove this.
+This is partly because of a lack of resources,
+but it is also a genuinely hard problem:
 no one knows how to measure the productivity of programmers,
 or the productivity of scientists,
 and putting the two together doesn't make the unknowns cancel out.
-Again,
-we are developing post-assessments to find out
-what people actually adopt after boot camps,
-and whether they feel it has helped them,
-but measuring actual impact is a much harder problem.
+
+What we've done so far is collect verbal feedback at the end of every boot camp
+(mostly by asking attendees what went well and what didn't)
+and administer surveys immediately before and afterwards.
+Neither has been done systematically,
+though,
+which limits the insight we can actually glean.
+We are taking steps to address that,
+but the larger question of what impact we're having on scientists' productivity
+still needs to be addressed.
 
 > _Meeting Our Own Standards_
 >
