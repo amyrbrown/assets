@@ -284,7 +284,7 @@ there were several disappointments:
    we discovered that five eight-hour days are more wearying than enlightening.
 2. And once again,
    only a handful of other people contributed material
-   (Orion Buske, Tommy Guy, Jason Montojo, Jon Pipitone, and Ethan White).
+   (Orion Buske, Tommy Guy, Jason Montojo, Jon Pipitone, Ethan White, and Mike Jackson).
    We believe this was in part because
    creating videos is significantly more challenging than creating slides.
    Editing or modifying them is harder still:

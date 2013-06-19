@@ -1,22 +1,24 @@
 Hi everyone,
 
-I've spoken to a couple of engineers here at Mozilla about mechanics,
-and to Prof. Marian Petre (Open University) about assessment, and
-based on that, I'd like to propose the following:
+I've spoken to a couple of engineers here at Mozilla about how to
+capture the process and the review, and to Prof. Marian Petre at the
+Open University about assessment --- she has a world-class reputation
+doing empirical research in software engineering, particularly
+observational work like this.  Based on those discussions, I'd like to
+propose that:
 
 1. Mozilla sets up an instance of a simple code review tool called
-   ReviewBoard [1] at http://review.software-carpentry.org
-
-   * Mozilla also builds a simple data collection plugin for it based
-     on discussion with Marian about what extra information we want to
-     gather about the review process.  (We'll scope the data
-     collection to fit the two days of engineering effort we have for
-     this part.)
+   ReviewBoard at http://review.software-carpentry.org
 
    * We'll require passwords to log in to ReviewBoard, so that only
      participants in the pilot will be able to see stuff.  However,
      authors and reviewers _will_ be able to see each other's code and
      reviews.
+
+   * We will brainstorm with Marian about what data we ought to collect
+     that ReviewBoard doesn't already gather.  If there is any, and if
+     we can throw together a small plugin to collect it, we'll do that
+     before inviting submissions.
 
 2. PLOS contacts the authors of 40-50 papers published in the last 12
    months and invites them to take part in the pilot (wording at the
@@ -51,10 +53,11 @@ Dear author,
 
 In partnership with the Mozilla Science Lab, the Public Library of
 Science (PLOS) is launching a pilot project to explore what code
-review could and should look like for research.  Over the next three
-months, a dozen Mozilla developers will each review three or four
-small programs used to produce results in papers published over the
-past 12 months.  What we hope to find out is:
+review could and should look like for research.  During the next three
+months, a dozen Mozilla developers will spent a few hours each
+reviewing three or four small programs used to produce results in
+papers published over the past 12 months.  From this, we hope to
+learn:
 
 1. How much scientific software can be reviewed by non-specialists,
    and how often is domain expertise required?
@@ -82,4 +85,5 @@ give us up to half an hour of your time for an interview by email or
 phone so that we can learn more about how and whether to take this
 forward.
 
-If you'd like to take part in this, please contact [EMAIL HERE].
+If you'd like to take part in this pilot study, please contact us by
+email at science-code-review@software-carpentry.org.
