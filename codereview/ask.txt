@@ -1,0 +1,43 @@
+Hi,
+
+TL;DR: We'd like a few hours of your time to help scientists learn how
+       to work the Mozilla way.
+
+And now the long version:
+
+We recently launched the Mozilla Science Lab, a new initiative that
+will help scientists use and shape the open web, and let Mozillians
+who are interested in science get involved with leading-edge research
+(https://blog.mozilla.org/blog/2013/06/14/5992/).  As part of that, we
+hope to explore some of the ways we can engage researchers,
+publishers, funders, and others in the community in a larger
+conversation about digital research.
+
+To get that ball rolling, we are launching a pilot project with the
+Public Library of Science (PLOS), one of the first open access
+scientific publishers.  Our focus is code review, which isn't
+traditionally part of standard peer review.  We'd like to explore what
+that could and should look like for research; more specifically, over
+the next three months we would like to have a dozen Mozilla developers
+each review three or four small programs used to produce results in
+published papers.  Each program will be roughly a hundred lines long;
+most will be written in Python, Perl, R, or MATLAB, although there may
+be some C, C++, or Java as well.
+
+What we hope to find out is:
+
+1. How much scientific code can be reviewed by non-specialists, and
+   how often is domain expertise required?
+
+2. How much effort does this take compared to reviews of other kinds
+   of code?
+
+3. How useful do the scientists find these reviews?
+
+4. Most importantly, is code review a transferable skill?  I.e., can
+   scientists learn how to do their own code reviews by having their
+   code reviewed, and if so, how much effort would that add to their
+   current review cycle?
+
+If you'd like to take part in this, please contact Kaitlin Thaney
+(kaitlin@mozillafoundation.org) or Mike Hoye <mhoye@mozilla.com>.

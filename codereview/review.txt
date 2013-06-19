@@ -1,0 +1,85 @@
+Hi everyone,
+
+I've spoken to a couple of engineers here at Mozilla about mechanics,
+and to Prof. Marian Petre (Open University) about assessment, and
+based on that, I'd like to propose the following:
+
+1. Mozilla sets up an instance of a simple code review tool called
+   ReviewBoard [1] at http://review.software-carpentry.org
+
+   * Mozilla also builds a simple data collection plugin for it based
+     on discussion with Marian about what extra information we want to
+     gather about the review process.  (We'll scope the data
+     collection to fit the two days of engineering effort we have for
+     this part.)
+
+   * We'll require passwords to log in to ReviewBoard, so that only
+     participants in the pilot will be able to see stuff.  However,
+     authors and reviewers _will_ be able to see each other's code and
+     reviews.
+
+2. PLOS contacts the authors of 40-50 papers published in the last 12
+   months and invites them to take part in the pilot (wording at the
+   end of this message).  We'll start accepting code and doing reviews
+   in the first week of August.
+
+3. Authors email their code to review@software-carpentry.org, and we
+   add it to a version control repository.  (Normally, we'd just point
+   ReviewBoard at the authors' code repository, but if we require that
+   for the pilot, we'll bias selection toward the most competent
+   participants.)
+
+4. We match code to volunteer reviewers.  We'll aim for first-come,
+   first-served, but it will also depend on which reviewers feel they
+   can understand what.
+
+5. As each review is completed, we mail authors to let them know where
+   the review is, and ask for their feedback on the review.  (They can
+   provide this by adding comments of their own through ReviewBoard,
+   or by sending us notes by email --- we prefer the former, since
+   it's the normal workflow, but we'll accept the latter for the
+   pilot.)
+
+6. We'll turn off the taps at the end of August, then do interviews
+   with authors and reviewers in the first half of September by email
+   and phone to supplement whatever we've been able to collect through
+   ReviewBoard.
+
+------------------------------------------------------------
+
+Dear author,
+
+In partnership with the Mozilla Science Lab, the Public Library of
+Science (PLOS) is launching a pilot project to explore what code
+review could and should look like for research.  Over the next three
+months, a dozen Mozilla developers will each review three or four
+small programs used to produce results in papers published over the
+past 12 months.  What we hope to find out is:
+
+1. How much scientific software can be reviewed by non-specialists,
+   and how often is domain expertise required?
+
+2. How much effort does this take compared to reviews of other kinds
+   of software, and to reviews of papers themselves?
+
+3. How useful do scientists find these reviews?
+
+If you would like to take part in this program, we invite you to
+submit any piece of software that:
+
+* you wrote yourself to produce a result in a recently-published
+  paper;
+
+* is 50-200 lines long; and
+
+* is written in Perl, Python, R, C/C++, or Java.
+
+Please note that this is only a pilot: the code you submit, and the
+reviews of it, will only be accessible to participants in the program,
+and the review will not affect the status of your published paper in
+any way.  If your code is reviewed, we will ask you to subsequently
+give us up to half an hour of your time for an interview by email or
+phone so that we can learn more about how and whether to take this
+forward.
+
+If you'd like to take part in this, please contact [EMAIL HERE].
