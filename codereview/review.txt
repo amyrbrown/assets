@@ -36,11 +36,11 @@ propose that:
    can understand what.
 
 5. As each review is completed, we mail authors to let them know where
-   the review is, and ask for their feedback on the review.  (They can
+   the review is, and ask for their feedback on the review.  They can
    provide this by adding comments of their own through ReviewBoard,
    or by sending us notes by email --- we prefer the former, since
    it's the normal workflow, but we'll accept the latter for the
-   pilot.)
+   pilot.
 
 6. We'll turn off the taps at the end of August, then do interviews
    with authors and reviewers in the first half of September by email
@@ -63,11 +63,10 @@ Dear author,
 
 In partnership with the Mozilla Science Lab, the Public Library of
 Science (PLOS) is launching a pilot project to explore what code
-review could and should look like for research.  During the next three
-months, a dozen Mozilla developers will spent a few hours each
-reviewing three or four small programs used to produce results in
-papers published over the past 12 months.  From this, we hope to
-learn:
+review could and should look like for research.  During August and
+early September, a dozen Mozilla developers will each review three or
+four small programs used to produce results in papers published over
+the past 12 months.  From this, we hope to learn:
 
 1. How much scientific software can be reviewed by non-specialists,
    and how often is domain expertise required?
@@ -76,6 +75,9 @@ learn:
    of software, and to reviews of papers themselves?
 
 3. How useful do scientists find these reviews?
+
+We expect to complete and return reviews by the first week of
+September, and hope to publish a summary of our results in 2014.
 
 If you would like to take part in this program, we invite you to
 submit any piece of software that:
@@ -87,13 +89,17 @@ submit any piece of software that:
 
 * is written in Perl, Python, R, C/C++, or Java.
 
-Please note that this is only a pilot: the code you submit, and the
-reviews of it, will only be accessible to participants in the program,
-and the review will not affect the status of your published paper in
-any way.  If your code is reviewed, we will ask you to subsequently
-give us up to half an hour of your time for an interview by email or
-phone so that we can learn more about how and whether to take this
-forward.
+We will make this code available to the reviewers, and to the
+researcher who is monitoring the pilot.  If your code is chosen for
+review, we will ask you to subsequently give us up to half an hour of
+your time for an interview by email or phone so that we can learn more
+about how and whether to take this forward.  If you wish to withdraw
+at any time, for any reason, you may do so; we will then remove your
+code and our reviews of it from our system, and not include it in our
+analysis or results.
+
+Please note: this is only a pilot, and will not affect the status of
+your published paper in any way.
 
 If you'd like to take part in this pilot study, please contact us by
 email at science-code-review@software-carpentry.org.
