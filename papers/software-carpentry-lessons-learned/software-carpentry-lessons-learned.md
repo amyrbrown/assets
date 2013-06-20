@@ -182,7 +182,7 @@ this course,
 like many other interdisciplinary courses,
 fell between two stools.
 
-> _It Works Too Well_
+> _It Works Too Well to be Interesting_
 >
 > We have also found that what we teach simply isn't interesting to most computer scientists.
 > They are interested in doing research to advance our understanding of the science of computing;
@@ -445,9 +445,10 @@ missed topics,
 and jokes that make no sense.
 
 Our boot camps have traditionally been free,
-but we are starting to use a $20 cover charge to discourage no-shows.
+but we are starting to use a small cover charge to discourage no-shows.
 (We have had boot camps where only half of those who signed up actually attended,
-which is demoralizing for instructors.)
+which is demoralizing for instructors
+and unfair for people left on the waiting list.)
 Even when we treat this charge as a deposit,
 and refund it to participants who attended both days,
 we must be very careful not to trip over institutional rules
@@ -502,88 +503,178 @@ much higher turnout from groups that are otherwise often under-represented,
 such as women and minority students,
 since they know in advance that they will be in a supportive environment.
 
-Other lessons include:
+## Small Things Add Up
 
-_Live coding_
-:   We use live coding rather than slides:
-    it's more convincing,
-    it enables instructors to be more responsive to "what if?" questions,
-    and it facilitates lateral knowledge transfer
-    (i.e.,
-    people learn more than we realized we were teaching them by watching us work).
-    This does put more of a burden on instructors than a pre-packaged slide deck,
-    but most find it more fun.
-_Open everything_
-:   Our grant proposals,
-    mailing lists,
-    feedback from boot camps,
-    and everything else that isn't personally sensitive
-    is out in the open.
-    While we can't prove it,
-    we believe that the fact that people can see us actively succeeding, failing, and learning
-    buys us some credibility and respect.
-_Open lessons_
-:   This is an important special case of the previous point.
-    Anyone who wants to use our lessons can take what we have,
-    make changes,
-    and offer those back by sending us a pull request on GitHub.
-    As mentioned earlier,
-    this workflow is still foreign to most educators,
-    but it is allowing us to scale and adapt more quickly and more cheaply
-    than the centralized approaches being taken by many high-profile online education ventures.
-_Use what we teach_
-:   We also make a point of eating our own cooking,
-    e.g.,
-    we use GitHub for our web site and to plan boot camps.
-    Again,
-    this buys us credibility,
-    and gives instructors a chance to do some hands-on practice
-    with the things they're going to teach.
-_Meet the learners on their own ground_
-:   Learners tell us that
-    it's important to them to leave the boot camp
-    with their own working environment set up.
-    We therefore continue to teach on all three major platforms
-    (Linux, Mac OS X, and Windows),
-    even though it would be simpler to require learners to use just one.
-    We are experimenting with virtual machines on learners' machines or in the cloud
-    to reduce installation problems,
-    but those introduce problems of their own:
-    older or smaller machines simply aren't fast enough,
-    and again,
-    it's important to many learners
-    to leave with their machines set up.
-_Collaborative note-taking_
-:   We often use [Etherpad](http://etherpad.org)
-    for collaborative note-taking
-    and to share snippets of code and small data files with learners.
-    (If nothing else,
-    it saves us from having to ask students
-    to copy long URLs from the presenter's screen to their computers.)
-    It is almost always mentioned positively in post-workshop feedback,
-    and several boot camp participants have started using it in their own teaching.
-_Sticky notes and minute cards_
-:   Giving each learner two sticky notes of different colors
-    allows instructors to do quick true/false questions as they're teaching.
-    It also allows real-time feedback during hands-on work:
-    learners can put a green sticky on their laptop when they have something done,
-    or a red sticky when they need help.
-    We also use them as minute cards:
-    before each break,
-    learners take a minute to write
-    one thing they've learned on the green sticky,
-    and one thing they found confusing (or too fast or too slow) on the red sticky.
-    It only takes a couple of minutes to collate these,
-    and allows instructors to adjust to learners' interests and speed.
-_Pair programming_
-:   Pairing is a good practice in real life,
-    and an even better way to teach:
-    partners can not only help each other out during the practical,
-    but clarify each other's misconceptions when the solution is presented,
-    and discuss common research interests during breaks.
-    To facilitate it,
-    we strongly prefer flat seating to banked (theater-style) seating;
-    this also makes it easier for helpers to reach learners who need assistance.
+As in chess,
+success in teaching often comes from
+the accumulation of seemingly small advantages.
+Here are a few of the less significant things we do
+that we believe have contributed to our success.
+
+### Live Coding
+
+We use live coding rather than slides:
+it's more convincing,
+it enables instructors to be more responsive to "what if?" questions,
+and it facilitates lateral knowledge transfer
+(i.e.,
+people learn more than we realized we were teaching them by watching us work).
+This does put more of a burden on instructors than a pre-packaged slide deck,
+but most find it more fun.
+
+### Open Everything
+
+Our grant proposals,
+mailing lists,
+feedback from boot camps,
+and everything else that isn't personally sensitive
+is out in the open.
+While we can't prove it,
+we believe that the fact that people can see us actively succeeding, failing, and learning
+buys us some credibility and respect.
+
+### Open Lessons
+
+This is an important special case of the previous point.
+Anyone who wants to use our lessons can take what we have,
+make changes,
+and offer those back by sending us a pull request on GitHub.
+As mentioned earlier,
+this workflow is still foreign to most educators,
+but it is allowing us to scale and adapt more quickly and more cheaply
+than the centralized approaches being taken by many high-profile online education ventures.
+
+### Use What We Teach
+
+We also make a point of eating our own cooking,
+e.g.,
+we use GitHub for our web site and to plan boot camps.
+Again,
+this buys us credibility,
+and gives instructors a chance to do some hands-on practice
+with the things they're going to teach.
+The (considerable) downside is that
+it can be quite difficult for newcomers to contribute material;
+we are therefore working to streamline that process.
+
+### Meet the Learners on Their Own Ground
+
+Learners tell us that
+it's important to them to leave the boot camp
+with their own working environment set up.
+We therefore continue to teach on all three major platforms
+(Linux, Mac OS X, and Windows),
+even though it would be simpler to require learners to use just one.
+We are experimenting with virtual machines on learners' machines or in the cloud
+to reduce installation problems,
+but those introduce problems of their own:
+older or smaller machines simply aren't fast enough,
+and again,
+it's important to many learners
+to leave with their machines set up.
+
+### Collaborative Note-Taking
+
+We often use [Etherpad](http://etherpad.org)
+for collaborative note-taking
+and to share snippets of code and small data files with learners.
+(If nothing else,
+it saves us from having to ask students
+to copy long URLs from the presenter's screen to their computers.)
+It is almost always mentioned positively in post-workshop feedback,
+and several boot camp participants have started using it in their own teaching.
+
+We are still trying to come up with an equally good way
+to share larger files dynamically as lessons progress:
+version control does _not_ work,
+both because our learners are new to it
+(and therefore likely to make mistakes that affect classmates)
+and because classroom WiFi frequently can't handle
+a flurry of multi-megabyte downloads,
+and other solutions like FTP and Dropbox have similar problems.
+
+### Sticky Notes and Minute Cards
+
+Giving each learner two sticky notes of different colors
+allows instructors to do quick true/false questions as they're teaching.
+It also allows real-time feedback during hands-on work:
+learners can put a green sticky on their laptop when they have something done,
+or a red sticky when they need help.
+We also use them as minute cards:
+before each break,
+learners take a minute to write
+one thing they've learned on the green sticky,
+and one thing they found confusing (or too fast or too slow) on the red sticky.
+It only takes a couple of minutes to collate these,
+and allows instructors to adjust to learners' interests and speed.
+
+### Pair Programming
+
+Pairing is a good practice in real life,
+and an even better way to teach:
+partners can not only help each other out during the practical,
+but clarify each other's misconceptions when the solution is presented,
+and discuss common research interests during breaks.
+To facilitate it,
+we strongly prefer flat seating to banked (theater-style) seating;
+this also makes it easier for helpers to reach learners who need assistance.
+
+### Keep Experimenting
+
+We are constantly trying out new ideas
+(though not always on purpose).
+As of June 2013,
+we have several deliberate experiments on the go:
+
+_Partner and Adapt_
+:   We have built a very fruitful partnership with
+    the Software Sustainability Institute (SSI),
+    who now manage our activities in the UK,
+    and are adapting our general approach to meet particular local needs.
+    As just one example,
+    they are working with the Doctoral Training Centres (DTCs)
+    to find ways to offer Software Carpentry boot camps
+    to each new cohort of PhD students.
+    We are now actively looking for similar organizations to partner with elsewhere,
+    and would welcome inquiries.
+_A Driver's License for HPC_
+:   As another example of this collaboration,
+    we are developing a "driver's license"
+    for researchers who wish to use the DiRAC HPC facility.
+    During several rounds of beta testing,
+    we have refined an hour-long exam to assess people's proficiency with
+    the Unix shell, testing, Makefiles, and other skills.
+    This exam will be deployed in the fall of 2013,
+    and we hope to be able to report on it by mid-2014.
+_New Channels_
+:   On June 24-25, 2013, we ran our first boot camp
+    for women in science, engineering, and medicine.
+    This event attracted 120 learners, 9 instructors, a dozen helpers,
+    and direct sponsorship from several companies,
+    universities,
+    and non-profit organizations.
+    We are already planning a follow-on,
+    and are exploring ways to reach other groups
+    that are traditionally under-represented in computing.
+_Smuggling It Into the Curriculum_
+:   Many of our instructors also teach regular university courses,
+    and several of them are now using part or all of our material
+    as the first few lectures in them.
+    We strongly encourage this,
+    and would welcome a chance to work with anyone
+    who wishes to explore this themselves.
+
+> _Forking and Merging_
+>
+> One obstacle to wider uptake of shared curriculum is that
+> the formats most used in teaching,
+> such as PowerPoint,
+> do not play nicely with version control.
+> Instructors frequently fork (i.e., copy and modify) one another's slide decks,
+> but merging (i.e., reconciling changes back into the original) is rare.
+> Even when instructors use pure-text formats like LaTeX and HTML for slides,
+> merging frequently doesn't occur because
+> it isn't part of educational culture.
 
 ## Instructor Training
 
@@ -634,12 +725,14 @@ _It's fun._
     and don't have to mark anything afterward.
     It's a refreshing change from teaching undergraduate calculus...
 
-## What's Not Working
+## TODO
 
 We've learned a lot,
 and we're doing a much better job of reaching and teaching people
 than we did eighteen months ago,
 but there are still many things we need to improve.
+
+### Too Slow *and* Too Fast
 
 The biggest challenge we face is
 the diversity of our learners' backgrounds and skill levels.
@@ -647,6 +740,7 @@ No matter what we teach,
 and how fast or how slow we go,
 20% or more of the room will be lost,
 and there's a good chance that a different 20% will be bored.
+
 The obvious solution,
 now that we have enough instructors to implement it,
 is to split people by level.
@@ -664,6 +758,8 @@ We hope that will lead to some reliable way to stream learners,
 but short of one-to-one interviews,
 we believe this problem will never go away.
 
+### Finances
+
 Our second-biggest problem is long-term financial sustainability.
 The "host site covers costs" model allows us to offer more boot camps,
 but we still need to pay for
@@ -673,7 +769,10 @@ but as mentioned earlier,
 roughly one third of sites won't let us do this,
 and it seems unfair to charge some but not others.
 We are currently exploring other possibilities,
-including various forms of sponsorship.
+including overhead charges for administrative costs
+and various forms of sponsorship.
+
+### Long-Term Assessment
 
 Third,
 while we believe we're helping scientists,
@@ -699,7 +798,7 @@ still needs to be addressed.
 > One of the reasons we need to do long-term follow-up is
 > to find out for our own benefit
 > whether we're teaching the right things the right way.
-> For example,
+> As just one example,
 > some of us believe that Subversion is significantly easier for novices to understand than Git
 > because there are fewer places data can reside
 > and fewer steps in its normal workflow.
@@ -708,6 +807,8 @@ still needs to be addressed.
 > While learnability isn't the only concern---the large social network
 > centered around GitHub is a factor as well---we would obviously be able
 > to make better decisions if we had more quantitative data to base them on.
+
+### "Is It Supposed to Hurt This Much?"
 
 Fourth,
 getting software installed is often harder than using it.
@@ -724,6 +825,11 @@ and it's almost inevitable that
 every time we introduce a new tool,
 it won't work as expected (or at all)
 for at least one person in the room.
+Detailed documentation has not proven effective:
+some learners won't read it (despite repeated prompting),
+and no matter how detailed it is,
+it will be incomprehensible to some,
+and lacking for others.
 
 > _Edit This_
 >
@@ -735,6 +841,8 @@ for at least one person in the room.
 > We now recommend a collection of open and almost-open GUI editors,
 > but it remains a stumbling block.
 
+### Teaching on the Web
+
 Challenge #5 is to move more of our teaching and follow-up online.
 We have tried several approaches,
 from MOOC-style online-only offerings
@@ -743,6 +851,10 @@ and one-to-one online office hours via VoIP and desktop sharing.
 In all cases,
 turnout has been mediocre at the start
 and dropped off rapidly.
+The fact that this is true of most high-profile MOOCs as well
+is little comfort...
+
+### Waht vs. How
 
 Sixth on our list is the tension between
 teaching the "what" and the "how" of programming.
@@ -767,16 +879,20 @@ our learners quite reasonably ask,
 Saying,
 "One part in a million, just because," isn't satisfying...
 
+### Standardization vs. Customization
+
 Both of the previous points tie into the challenge of
 standardizing curriculum across a large group of volunteer instructors
 with very different backgrounds and interests.
 What we _actually_ teach varies more widely than
 the content of most university courses with prescribed curricula.
-This isn't necessarily a bad thing---one of the reasons
+We think this is a strength---one of the reasons
 we recruit instructors from among scientists is so that
 they can customize content and delivery for local needs---but
 we need to be more systematic about varying on purpose
 rather than by accident.
+
+### Watching vs. Doing
 
 Finally,
 we try to make our teaching as interactive as possible,
@@ -787,6 +903,16 @@ and those that we do give
 are often at the wrong level.
 This is partly due to a lack of time,
 but disorganization on our part is also a contributing factor.
+
+There is also a constant tension between
+having students do realistic exercises drawn from actual scientific workflows,
+and giving them tasks that are small and decoupled,
+so that failures are less likely
+and don't have knock-on effects when they occur.
+This is exacerbated by the diversity of learners in the typical boot camp,
+though we hope that will diminish
+as we organize and recruit along disciplinary lines
+instead of geographically.
 
 ## Conclusions
 
