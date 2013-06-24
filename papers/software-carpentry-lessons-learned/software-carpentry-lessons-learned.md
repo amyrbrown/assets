@@ -121,7 +121,7 @@ and was repeated nine times over the next four years.
 It eventually wound down as the principals moved on to other projects,
 but several valuable lessons were learned:
 
-1. Intensive week-long courses are easy to schedule (particularly if instructors are traveling)
+1. Intensive week-long courses are easy to schedule (particularly if instructors are travelling)
    but by the end of the second day,
    attendees' brains are full
    and learning drops off significantly.
@@ -283,8 +283,7 @@ there were several disappointments:
 1. Once again,
    we discovered that five eight-hour days are more wearying than enlightening.
 2. And once again,
-   only a handful of other people contributed material
-   (Orion Buske, Tommy Guy, Jason Montojo, Jon Pipitone, Ethan White, and Mike Jackson).
+   only a handful of other people contributed material.
    We believe this was in part because
    creating videos is significantly more challenging than creating slides.
    Editing or modifying them is harder still:
@@ -479,7 +478,7 @@ if any money changes hands at any point.
 > and to build some name recognition around it,
 > and we'd like to make sure our name continues to mean something.
 
-As well as insructors,
+As well as instructors,
 we rely local helpers
 to wander the room and answer questions during practicals.
 These helpers may be participants in previous boot camps
@@ -932,7 +931,7 @@ Aranda2012: Jorge Aranda: Report on Software Carpentry.  [https://github.com/swc
 
 Cook2012: John D. Cook: "Moore's law squared".  [http://www.johndcook.com/blog/2012/01/01/moores-law-squared/](http://www.johndcook.com/blog/2012/01/01/moores-law-squared/), viewed 2013-05-17.
 
-Jordan2013: Katy Jordan: "MOOC Competion Rates: The Data". [http://www.katyjordan.com/MOOCproject.html](http://www.katyjordan.com/MOOCproject.html), viewed 2013-06-10.
+Jordan2013: Katy Jordan: "MOOC Completion Rates: The Data". [http://www.katyjordan.com/MOOCproject.html](http://www.katyjordan.com/MOOCproject.html), viewed 2013-06-10.
 
 Wilson1996: Gregory V. Wilson: "What Should Computer Scientists Teach to Physical Scientists and Engineers?" *IEEE Computational Science & Engineering*, Summer-Fall 1996.
 
