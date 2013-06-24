@@ -102,7 +102,7 @@ where and why we have succeeded and failed.
 ### Version 1: Red Light
 
 In 1995-96,
-Greg Wilson organized a series of articles in *IEEE Computational Science & Engineering* titled,
+the author organized a series of articles in *IEEE Computational Science & Engineering* titled,
 "What Should Computer Scientists Teach to Physical Scientists and Engineers?"
 (Wilson1996).
 The articles grew out of the frustration he had working with scientists
@@ -114,7 +114,7 @@ and that weren't under version control (Wilson2006a).
 In response,
 John Reynders
 (then director of the Advanced Computing Laboratory at Los Alamos National Laboratory)
-invited Wilson and Brent Gorda (now at Intel)
+invited the author and Brent Gorda (now at Intel)
 to teach a week-long course on these topics to LANL staff.
 The course ran for the first time in July 1998,
 and was repeated nine times over the next four years.
@@ -123,7 +123,7 @@ but several valuable lessons were learned:
 
 1. Intensive week-long courses are easy to schedule (particularly if instructors are traveling)
    but by the end of the second day,
-   attendees brains are full
+   attendees' brains are full
    and learning drops off significantly.
 2. Textbook software engineering is not the right thing to teach most scientists.
    In particular,
@@ -247,7 +247,7 @@ and real problems of their own that they want to solve.
 
 ### Version 4: Orange Light
 
-Wilson rebooted Software Carpentry in May 2010
+The author rebooted Software Carpentry in May 2010
 with support from
 Indiana University,
 Michigan State University,
@@ -664,18 +664,6 @@ _Smuggling It Into the Curriculum_
     and would welcome a chance to work with anyone
     who wishes to explore this themselves.
 
-> _Forking and Merging_
->
-> One obstacle to wider uptake of shared curriculum is that
-> the formats most used in teaching,
-> such as PowerPoint,
-> do not play nicely with version control.
-> Instructors frequently fork (i.e., copy and modify) one another's slide decks,
-> but merging (i.e., reconciling changes back into the original) is rare.
-> Even when instructors use pure-text formats like LaTeX and HTML for slides,
-> merging frequently doesn't occur because
-> it isn't part of educational culture.
-
 ## Instructor Training
 
 To help people teach,
@@ -854,7 +842,7 @@ and dropped off rapidly.
 The fact that this is true of most high-profile MOOCs as well
 is little comfort...
 
-### Waht vs. How
+### What vs. How
 
 Sixth on our list is the tension between
 teaching the "what" and the "how" of programming.
@@ -950,4 +938,4 @@ Wilson1996: Gregory V. Wilson: "What Should Computer Scientists Teach to Physica
 
 Wilson2006a: Greg Wilson: "Where's the Real Bottleneck in Scientific Computing?" *American Scientist*, January-February 2006.
 
-Wilson2006b: Greg Wilson: "Software Carpentry: Getting Scientists to Write Better Code by Making Them More Productive" *Computing in Science & Engineering*, November-December 2006.
+Wilson2006b: Greg Wilson: "Software Carpentry: Getting Scientists to Write Better Code by Making Them More Productive". *Computing in Science & Engineering*, November-December 2006.
