@@ -1,13 +1,14 @@
 From Mozilla Co:
 
 Till Schneidereit
-Ralph Giles  -- physics and biophysics
-Mike Habicher --electronics, space, photography/imaging.
-Mark Capella - Astronomy and particle physics
+Ralph Giles (physics and biophysics)
+Mike Habicher (electronics, space, photography/imaging)
+Mark Capella (astronomy and particle physics)
 Jim Chen
-Victor (vng)
+Victor Ng
 Blake Winton
 Kartikaya Gupta 
+Wes Johnston <wjohnston@mozilla.com>
 
 From SWC:
 - Diego Barneche
