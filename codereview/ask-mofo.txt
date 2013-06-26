@@ -1,0 +1,35 @@
+Hi everyone,
+
+The Mozilla Science Lab is going to be running an experiment this
+summer, and I want to know if you'd like to help.  We would like to
+get Mozilla programmers to do short code reviews for scientists who
+rely on code they've written themselves to do their research.  We'd
+like to see if the sort of code review we do here routinely, which is
+pretty much unheard-of in the academic research environment, can make
+those scientists' software, research, and lives better.  This isn't
+expected to be a huge commitment of time --- 2-4 hours total during
+the month of August --- and I'd like to be able to pair volunteers
+with somebody working with a field that interests them, if at all
+possible.
+
+The specific questions we're trying to answer are:
+
+1. How much scientific software can be reviewed by non-specialists,
+   and how often is domain expertise required?
+
+2. How much effort does this take compared to reviews of other kinds
+   of software, and to reviews of papers themselves?
+
+3. How useful do scientists find these reviews?
+
+If you'd like to help, please let me know (and if you've got a
+particular interested in a specific field, please specify that as
+well).
+
+Again, this is a pilot project --- whether or not it grows beyond that
+depends on whether or not this turns out to be a valuable experience
+for all concerned.  But I'm sure it'll be interesting...
+
+Look forward to hearing from you,
+Thanks,
+Kaitlin Thaney
