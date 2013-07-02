@@ -9,6 +9,14 @@ Victor Ng
 Blake Winton
 Kartikaya Gupta 
 Wes Johnston <wjohnston@mozilla.com>
+Mark Côté <mcote@mozilla.com>
+Selena Deckelmann <selena@mozilla.com>
+
+From Mozilla Foundation:
+
+Atul Varma <atul@mozillafoundation.org>
+Jon Buckley <jon@mozillafoundation.org>
+Andrew Hayward <andrew@mozillafoundation.org>
 
 From SWC:
 - Diego Barneche
