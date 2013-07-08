@@ -14,6 +14,7 @@ Selena Deckelmann <selena@mozilla.com>
 Sheeri Cabral <scabral@mozilla.com>
 Dustin J. Mitchell <dustin@mozilla.com>
 Jim Chen <nchen@mozilla.com>
+Philippe M. Chiasson <gozer@ectoplasm.org>
 
 From Mozilla Foundation:
 
