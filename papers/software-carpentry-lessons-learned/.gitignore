@@ -4,6 +4,5 @@
 *.log
 *.out
 *.pdf
-*.tex
 *~
 software-carpentry-lessons-learned.html
