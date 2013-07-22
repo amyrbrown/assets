@@ -1,0 +1,690 @@
+Scientific code we might review
+Please do not circulate yet
+
+For each PLOS article you look at, please add:
+- link
+- Citation (copy and paste)
+- contact email (from author list)
+- mentions of code
+- summary if appropriate
+
+Greg will be back online at 14:00 Eastern time Monday July 22
+
+Code Available Online
+---------------------
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003059
+* Eyre DW, Cule ML, Griffiths D, Crook DW, Peto TEA, et al. (2013)
+  Detection of Mixed Infection from Bacterial Whole Genome Sequence Data
+  Allows Assessment of Its Role in Clostridium difficile
+  Transmission. PLoS Comput Biol 9(5): e1003059. doi:10.1371/journal.pcbi.1003059
+* david.eyre@ndm.ox.ac.uk
+* All analyses were conducted using R (http://www.r-project.org). The
+  code used can be found in Text S2. Text S3 contains a short Python
+  (http://www.python.org) script that can be used to obtain high
+  quality base counts from mapped BAM files. Text S4 contains an
+  explanation of the required input files for Text S2 and the output
+  generated. Dataset S1 contains an example dataset of the 26 patient
+  samples analysed for the presence of mixed ST infection, and
+  provides an example of the formatting on the input and output files.
+* Has code in article
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003130
+* Cron A, Gouttefangeas C, Frelinger J, Lin L, Singh SK, et al. (2013)
+  Hierarchical Modeling for Rare Event Detection and Cell Subset
+  Alignment across Flow Cytometry Samples. PLoS Comput Biol 9(7):
+  e1003130. doi:10.1371/journal.pcbi.1003130
+* cliburn.chan@duke.edu
+* SWC host
+* The code is written in the Python programming language, and will run
+  on regular CPUs, but is optimized for massively parallel computing
+  using the CUDA interface (a suitable Nvidia GPU is required for
+  CUDA).
+* we adapted the GPU computing ideas by Suchard et al [16], [21] used
+  in the “gpustats” python library to accelerate the computation.
+* Text S1 contains instructions on how to install the software and run
+  the examples provided.
+* Software S1 contains a Makefile, source code and scripts to generate
+  the figures shown in the manuscript.
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002976
+* Busse B, Smith S (2013) Automated Analysis of a Diverse Synapse
+  Population. PLoS Comput Biol 9(3):  e1002976. doi:10.1371/journal.pcbi.1002976
+* bbusse@gmail.com
+* Training set generation was implemented as a browser-based
+  application, coded in Python, to permit our experts to work at their
+  leisure. We used R for interactive classification for its ease of
+  Python integration, but the final random forest classifiers, trained
+  on the complete training set alone, used MATLAB (the TreeBagger
+  class).
+* All implemented code used in this analysis is available at
+  http://code.google.com/p/smithlabsoftwar​e/ under a GPL v3 license.
+* http://code.google.com/p/smithlabsoftware/ (four packages)
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003104
+* Zippo AG, Storchi R, Nencini S, Caramenti GC, Valente M, et
+  al. (2013) Neuronal Functional Connection Graphs among Multiple Areas
+  of the Rat Somatosensory System during Spontaneous and Evoked
+  Activities. PLoS Comput Biol 9(6):
+  e1003104. doi:10.1371/journal.pcbi.1003104
+* gabriele.biella@ibfm.cnr.it
+* The model has been developed using the Python environment [77]. For
+  the generation of small-word networks we used the networkx package
+  (available at http://networkx.lanl.gov/).
+* http://code.google.com/p/swn-neuronal-networks/
+* Has code!
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002996
+* Kleinstreuer N, Dix D, Rountree M, Baker N, Sipes N, et al. (2013) A
+  Computational Model Predicting Disruption of Blood Vessel
+  Development. PLoS Comput Biol 9(4):
+  e1002996. doi:10.1371/journal.pcbi.1002996
+* knudsen.thomas@epa.gov
+* The XML and Python configuration files used to parameterize and run
+  each simulation are included in the Supplemental Material, and the
+  parameters adjusted to mimic 5HPP-33 exposure were commented at the
+  relevant places in the code.
+* Code available in article!
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002882
+* Rockwell G, Guido NJ, Church GM (2013) Redirector: Designing Cell
+  Factories by Reconstructing the Metabolic Objective. PLoS Comput Biol
+  9(1): e1002882. doi:10.1371/journal.pcbi.1002882
+* grockwell@genetics.med.harvard.edu
+* The core is built with Python and currently uses the GLPK and SCIP
+  solvers. LP optimizations were largely carried out in GLPK because
+  of the ability to directly access GLPK functions from Python while
+  MILP optimizations are carried out by SCIP for faster solving
+  speed. Computation was carried out on the Broad Institute
+  computational cluster. The Redirector Package including operational
+  software code and metabolic network model files used for this
+  publication are available at
+  https://github.com//bionomicron/Redirect​or.git.
+* https://github.com/bionomicron/Redirector
+* Code available!
+* But large...
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002957
+* Park CY, Wong AK, Greene CS, Rowland J, Guan Y, et al. (2013)
+  Functional Knowledge Transfer for High-accuracy Prediction of
+  Under-studied Biological Processes. PLoS Comput Biol 9(3):
+  e1002957. doi:10.1371/journal.pcbi.1002957
+* ogt@genomics.princeton.edu
+* All software used in this study has been implemented in the open
+  source and publicly available Sleipnir library [94] available from
+  http://libsleipnir.bitbucket.org, which interfaces with the SVMperf
+  library [95] for linear kernel SVM classifiers (the error parameter
+  C was set to 100 for these experiments through
+  cross-validation). L1-regularized logistic regression used the
+  LIBLINEAR [28] and Random forest used the MILK (Machine Learning
+  Toolkit) python package implementation with 61 decision trees per GO
+  term.
+* A comprehensive application of FKT to 11,000 biological processes,
+  along with the functional relationship networks for all six
+  organisms, are available through the IMP web-server portal
+  accessible at http://imp.princeton.edu [26].
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002901
+* Loriaux PM, Tesler G, Hoffmann A (2013) Characterizing the
+  Relationship between Steady State and Response Using Analytical
+  Expressions for the Steady States of Mass Action Models. PLoS Comput
+  Biol 9(2): e1002901. doi:10.1371/journal.pcbi.1002901
+* ahoffmann@ucsd.edu
+* All code is available at
+  http://signalingsystems.ucsd.edu/models-and-code or as supplementary
+  material accompanying this paper.
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002968
+* Rajagopal N, Xie W, Li Y, Wagner U, Wang W, et al. (2013) RFECS: A
+  Random-Forest Based Algorithm for Enhancer Identification from
+  Chromatin State. PLoS Comput Biol 9(3):
+  e1002968. doi:10.1371/journal.pcbi.1002968
+* biren@ucsd.edu
+* The code used for RFECS can be downloaded from:
+  http://enhancer.ucsd.edu/renlab/RFECS_enhancer_prediction/
+* Large disorganized file dump (although it has a readme)
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002988
+* Rossell S, Huynen MA, Notebaart RA (2013) Inferring Metabolic States
+  in Uncharacterized Environments Using Gene-Expression
+  Measurements. PLoS Comput Biol 9(3):
+  e1002988. doi:10.1371/journal.pcbi.1002988
+* s.rossell@cmbi.ru.nl
+* The Supplementary Dataset S2 includes python scripts that detail and
+  implement EXAMO, and step-by-step instructions for running these
+  python scripts.
+* Some pieces are the right size for review.
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002967
+* Haynes WA, Higdon R, Stanberry L, Collins D, Kolker E (2013)
+  Differential Expression Analysis for Pathways. PLoS Comput Biol 9(3):
+  e1002967. doi:10.1371/journal.pcbi.1002967
+* This article has been formally corrected to address the following
+  errors: A minor correction has been made to the function
+  “meanExpDict”, where the conditional statement was flipped during
+  code refactoring. Further, the instructions have been made more
+  clear. Please view the correct File S3...
+* For the purposes of data interpretation, the pathways were broken
+  into their protein components using an internally developed python
+  script where connections of proteins through biochemical substrates
+  were maintained as protein-protein interactions PANTHER's internal
+  identifiers were mapped to UniProt identifiers.
+* Code available in ZIP file: most pieces long, one about the right
+  size, but the correction makes it very interesting.
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002880
+* Pang WL, Kaur A, Ratushny AV, Cvetkovic A, Kumar S, et al. (2013)
+  Metallochaperones Regulate Intracellular Copper Levels. PLoS Comput
+  Biol 9(1): e1002880. doi:10.1371/journal.pcbi.1002880
+* Nitin.Baliga@systemsbiology.org
+* Computational simulations were performed using the statistical
+  analysis platform R and the ODE simulation package deSolve. Model
+  source code is available for download via GitHub
+  (http://github.com/wleepang/CuEfflux). Also included is code to
+  convert the R based model code to SBML.
+* https://github.com/wleepang/CuEfflux has code
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003029
+* Failmezger H, Jaegle B, Schrader A, Hülskamp M, Tresch A (2013)
+  Semi-automated 3D Leaf Reconstruction and Analysis of Trichome
+  Patterning from Light Microscopic Images. PLoS Comput Biol 9(4):
+  e1003029. doi:10.1371/journal.pcbi.1003029
+* martin.huelskamp@uni-koeln.de or tresch@mpipz.mpg.de
+* All the analysis steps were implemented in Matlab. The TrichEratops
+  software is available under the GPL3.0 license at
+  https://sourceforge.net/projects/tricher​atops/
+* Looked at file and appears perhaps just to be a binary. Additionally
+  I was unable to get the git clone to work - Message says "warning: You
+  appear to have cloned an empty repository".
+* Also mentions http://www.mathworks.com/matlabcentral/fileexchange/6110
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002801
+* Barbu CM, Hong A, Manne JM, Small DS, Quintanilla Calderón JE, et
+  al. (2013) The Effects of City Streets on an Urban Disease
+  Vector. PLoS Comput Biol 9(1):
+  e1002801. doi:10.1371/journal.pcbi.1002801
+* corentin.barbu@gmail.com, mzlevy@mail.med.upenn.edu
+* All analyses were performed in R [59]; the code is available in Data
+  S1 and updated versions are available at https://github.com/cbarbu/spatcontrol.
+* https://github.com/cbarbu/spatcontrol has lots of R code (some of it large)
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003063
+* Schnoes AM, Ream DC, Thorman AW, Babbitt PC, Friedberg I (2013)
+  Biases in the Experimental Annotations of Protein Function and Their
+  Effect on Our Understanding of Protein Function Space. PLoS Comput
+  Biol 9(5): e1003063. doi:10.1371/journal.pcbi.1003063
+* i.friedberg@miamioh.edu
+* We used the UniProt-GOA database from December 2011. Data analyses
+  were performed using Python scripts. The following tools were used
+  in the analyses: Biopython [20], matplotlib [21].
+* All data and scripts are available on:
+  http://github.com/FriedbergLab/Uniprot-B​ias/ and on
+  http://datadryad.org (the latter upon acceptance).
+  
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003070
+* Solovyev A, Mi Q, Tzen Y-T, Brienza D, Vodovotz Y (2013) Hybrid
+  Equation/Agent-Based Model of Ischemia-Induced Hyperemia and Pressure
+  Ulcer Formation Predicts Greater Propensity to Ulcerate in Subjects
+  with Spinal Cord Injury. PLoS Comput Biol 9(5):
+  e1003070. doi:10.1371/journal.pcbi.1003070
+* qim3@pitt.edu or vodovotzy@upmc.edu
+* We implemented this ABM in SPARK (Simple Platform for Agent-based
+  Representation of Knowledge; freely downloadable at
+  http://www.pitt.edu/~cirm/spark) [34]
+* Requires that you fill out a web form to access code, but
+  automatically takes you to download screen.
+* Java based
+* Calibration was performed using Matlab R2011 (The Mathworks, Inc.,
+  Natick, MA, USA). We used the explicit expression of I2(t) for finding
+  best-fit parameters.
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002935
+* Feng Z, Fang G, Korlach J, Clark T, Luong K, et al. (2013) Detecting
+  DNA Modifications from SMRT Sequencing Data by Modeling Sequence
+  Context Dependence of Polymerase Kinetic. PLoS Comput Biol 9(3):
+  e1002935. doi:10.1371/journal.pcbi.1002935
+* We implemented the model in a R package named seqPatch, which is
+  available at https://github.com/zhixingfeng/seqPatch.
+* https://github.com/zhixingfeng/seqPatch has code
+  
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003098
+* Noor E, Haraldsdóttir HS, Milo R, Fleming RMT (2013) Consistent
+  Estimation of Gibbs Energy Using Component Contributions. PLoS Comput
+  Biol 9(7): e1003098. doi:10.1371/journal.pcbi.1003098
+* ron.milo@weizmann.ac.il (RM); ronan.mt.fleming@gmail.com (RMTF)
+* The component contribution method has been implemented in both
+  Matlab and Python. The Matlab implementation is tailored towards
+  application to genome-scale metabolic reconstructions. It is fully
+  compatible with the COBRA toolbox [40] and is freely available as part
+  of the openCOBRA project on Sourceforge
+  (http://sourceforge.net/projects/opencobra/)
+ * The Python implementation is a stand-alone package that can be used
+  by researchers with suitable programming skills. The Python package
+  includes a simple front-end called eQuilibrator
+  (http://equilibrator.weizmann.ac.il/), which is a freely available
+  online service. The Python code for component contribution is
+  licensed under the open source MIT License and available on GitHub
+  (https://github.com/eladnoor/component-contribution).
+
+The ENCODE consortium has a VM that includes anlaysis scripts
+http://scofield.bx.psu.edu/~dannon/encodevm/ that we could review (?).
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003010
+* Lonardi S, Duma D, Alpert M, Cordero F, Beccuti M, et al. (2013)
+  Combinatorial Pooling Enables Selective Sequencing of the Barley Gene
+  Space. PLoS Comput Biol 9(4):
+  e1003010. doi:10.1371/journal.pcbi.1003010
+* HASHFILTER available at http://www.cs.ucr.edu/~stelo/hashfilter/
+* about 4000 lines of C++, but some files are only 250 lines long
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002875#pcbi.1002875.s001
+* Beck AH, Knoblauch NW, Hefti MM, Kaplan J, Schnitt SJ, et al. (2013)
+  Significance Analysis of Prognostic Signatures. PLoS Comput Biol 9(1):
+  e1002875. doi:10.1371/journal.pcbi.1002875
+* Mentions R code and datasets on Dryad
+* http://datadryad.org/resource/doi:10.5061/dryad.mk471
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0066922
+* Barton MD, Barton HA (2013) Genomer — A Swiss Army Knife for Genome
+  Scaffolding. PLoS ONE 8(6): e66922. doi:10.1371/journal.pone.0066922
+* mail@michaelbarton.me.uk
+* We have released Genomer as open source software on GitHub
+* https://github.com/michaelbarton/genomer (link broken    in original)
+* Ruby!
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0054471
+* Szczesny P, Mykowiecka A, Pawłowski K, Grynberg M (2013) Distinct
+  Protein Classes in Human Red Cell Proteome Revealed by Similarity of
+  Phylogenetic Profiles. PLoS ONE 8(1):
+  e54471. doi:10.1371/journal.pone.0054471
+* greenb@ibb.waw.pl, k.pawlowski@nencki.gov.pl
+* Code at https://github.com/agnmyk/simphypro
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0057521
+* Costea PI, Lundeberg J, Akan P (2013) TagGD: Fast and Accurate
+  Software for DNA Tag Generation and Demultiplexing. PLoS ONE 8(3):
+  e57521. doi:10.1371/journal.pone.0057521
+* pelin.akan@scilifelab.se
+* We here report TagGD (DNA-based Tag Generator and Demultiplexor), a
+  fully-customisable, fast and accurate software package that can
+  generate thousands of barcodes satisfying user-defined constraints and
+  can guarantee full demultiplexing accuracy.
+* https://github.com/pelinakan/UBD
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0065923
+* Faircloth BC, Sorenson L, Santini F, Alfaro ME (2013) A Phylogenomic
+  Perspective on the Radiation of Ray-Finned Fishes Based upon
+  Targeted Sequencing of Ultraconserved Elements (UCEs). PLoS ONE
+  8(6): e65923. doi:10.1371/journal.pone.0065923
+* michaelalfaro@ucla.edu
+* After sequencing, we trimmed adapter contamination, low quality
+  bases, and sequences containing ambiguous base calls using a
+  pipeline we constructed
+  (https://github.com/faircloth-lab/illumip​rocessor). We assembled
+  reads, on a species-by-species basis, into contigs using Velvet [40]
+  and VelvetOptimiser
+  (https://github.com/Victorian-Bioinformat​ics-Consortium/VelvetOptimiser). Following
+  assembly, we used a software package
+  (https://github.com/faircloth-lab/phyluce) containing a custom
+  Python program (match_contigs_to_probes.py) integrating LASTZ [36]
+  to align species-specific contigs to the set of probes/UCEs we used
+  for enrichment while removing reciprocal and non-reciprocal
+  duplicate hits from the data set.
+* specific piece of code mentioned is https://github.com/faircloth-lab/2011-fairclothetal-systbiol-uce/blob/master/assembly/match_contigs_to_probes.py
+* other code at https://github.com/faircloth-lab/phyluce/
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0054848
+* McCormack JE, Harvey MG, Faircloth BC, Crawford NG, Glenn TC, et
+  al. (2013) A Phylogeny of Birds Based on Over 1,500 Loci Collected by
+  Target Enrichment and High-Throughput Sequencing. PLoS ONE 8(1):
+  e54848. doi:10.1371/journal.pone.0054848
+* mccormack@oxy.edu
+* mentions https://github.com/ngcrawford/CloudForest (Python)
+* and https://gist.github.com/brantfaircloth/47e03463db0573c4252f
+  (steps taken)
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0055871
+* Gibson SM, Ficklin SP, Isaacson S, Luo F, Feltus FA, et al. (2013)
+  Massive-Scale Gene Co-Expression Network Construction and Robustness
+  Testing Using Random Matrix Theory. PLoS ONE 8(2):
+  e55871. doi:10.1371/journal.pone.0055871
+* ffeltus@clemson.edu
+* https://github.com/spficklin/RMTGeneNet has C code
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0056859
+* Matsen IV FA, Evans SN (2013) Edge Principal Components and Squash
+  Clustering: Using the Special Structure of Phylogenetic Placement Data
+  for Sample Comparison. PLoS ONE 8(3):
+  e56859. doi:10.1371/journal.pone.0056859
+* matsen@fhcrc.org
+* http://fhcrc.github.com/microbiome-demo/ has shell scripts 'n' stuff
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0066643
+* Eren AM, Vineis JH, Morrison HG, Sogin ML (2013) A Filtering Method
+  to Generate High Quality Short Reads Using Illumina Paired-End
+  Technology. PLoS ONE 8(6): e66643. doi:10.1371/journal.pone.0066643
+* sogin@mbl.edu.
+* https://github.com/meren/illumina-utils (Python)
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0062799
+* Zaremba-Niedźwiedzka K, Andersson SGE (2013) No Ancient DNA Damage
+  in Actinobacteria from the Neanderthal Bone. PLoS ONE 8(5):
+  e62799. doi:10.1371/journal.pone.0062799
+* Siv.Andersson@icm.uu.se
+* Code at https://github.com/kasiazar/NeandertalBoneMetagenome (Perl)
+
+Available Upon Request (or Equivalent)
+-------------------------------------
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003000
+* Franzén O, Jerlström-Hultqvist J, Einarsson E, Ankarklev J, Ferella
+  M, et al. (2013) Transcriptome Profiling of Giardia intestinalis
+  Using Strand-specific RNA-Seq. PLoS Comput Biol 9(3):
+  e1003000. doi:10.1371/journal.pcbi.1003000
+* Staffan.Svard@icm.uu.se
+* Scripts in Perl and R available on request.
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003053
+* Wang Y, Vik JO, Omholt SW, Gjuvsland AB (2013) Effect of Regulatory
+  Architecture on Broad versus Narrow Sense Heritability. PLoS Comput
+  Biol 9(5): e1003053. doi:10.1371/journal.pcbi.1003053
+* The five cGP models were built and analyzed with the cgptoolbox
+  (http://github.com/jonovik/cgptoolbox) an open-source Python package
+  developed by the authors; further source code specific to the
+  simulations in this paper is available on request.
+* https://github.com/jonovik/cgptoolbox doesn't have much in 'master',
+  but look in 'repowide'
+* http://arken.umb.no/~jonvi/cgptoolbox/ is the code's site
+* The 'cgptoolbox' stuff is cited earlier, but we should get the "on
+  request" code.
+  
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0061217
+* McMurdie PJ, Holmes S (2013) phyloseq: An R Package for Reproducible
+  Interactive Analysis and Graphics of Microbiome Census Data. PLoS
+  ONE 8(4): e61217. doi:10.1371/journal.pone.0061217
+* R
+* Release: http://www.bioconductor.org/packages/release/bioc/html/phyloseq.html
+* Development git: http://joey711.github.com/phyloseq/
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0062224
+* Orsini M, Carcangiu S, Cuccuru G, Uva P, Tramontano A (2013) The
+  PARIGA Server for Real Time Filtering and Analysis of Reciprocal BLAST
+  Results. PLoS ONE 8(5): e62224. doi:10.1371/journal.pone.0062224
+* orsini@crs4.it
+* Describes a server they've built, but doesn't appear to include a
+  link to source?
+  
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0053743
+* Ruhs A, Cemic F, Braun T, Krüger M (2013) ResA3: A Web Tool for
+  Resampling Analysis of Arbitrary Annotations. PLoS ONE 8(1):
+  e53743. doi:10.1371/journal.pone.0053743
+* Aaron.Ruhs@mpi-bn.mpg.de, marcus.krueger@mpi-bn.mpg.de
+* Describes ResA3, but doesn't say where code can be obtained.
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059504
+* Bechini A (2013) On the Characterization and Software Implementation
+  of General Protein Lattice Models. PLoS ONE 8(3): e59504.
+  doi:10.1371/journal.pone.0059504
+* a.bechini@ing.unipi.it
+* Describes lattice protein folding software, but doesn't appear to
+  give a download link.
+
+Code Mentioned, But Not Availability
+------------------------------------
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002964
+* Matrajt L, Halloran ME, Longini IM Jr (2013) Optimal Vaccine
+  Allocation for the Early Mitigation of Pandemic Influenza. PLoS Comput
+  Biol 9(3): e1002964. doi:10.1371/journal.pcbi.1002964
+* laurama@uw.edu
+* Our model is written in Python 2.7 and Cython using the modules of
+  Scipy and Numpy. This allowed us to use a fast genetic algorithm
+  module written for Python, Pyevolve, to find nearly optimal
+  solutions to this problem.
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002930
+* Marin B, Barnett WH, Doloc-Mihu A, Calabrese RL, Cymbalyuk GS (2013)
+  High Prevalence of Multistability of Rest States and Bursting in a
+  Database of a Model Neuron. PLoS Comput Biol 9(3): e1002930. doi:10.1371/journal.pcbi.1002930
+* gcymbalyuk@gsu.edu
+* Numerical continuation of stationary states was performed with the
+  PyDSTool Python package [30], using 4,000 control parameter steps,
+  with minimum and maximum step sizes of 0.02 nS and 10−12 nS
+  respectively.
+* All analysis and auxiliary scripts were developed in-house, using
+  Python 2.6 along with the SciPy package [31], and were run on an
+  Intel Core i7 platform cluster.
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002867
+* Cazé RD, Humphries M, Gutkin B (2013) Passive Dendrites Enable
+  Single Neurons to Compute Linearly Non-separable Functions. PLoS
+  Comput Biol 9(2): e1002867. doi:10.1371/journal.pcbi.1002867
+* romain.caze@ens.fr
+* All these operations were programmed using python 2.7.1. We used
+  numpy version 1.5 (www.numpy.org) for matrix operation, and h5py
+  1.3.1 (A. Collette, HDF5 for Python, 2008; http://h5py.alfven.org)
+  to record the parameter sets in an hdf5 file.
+* We built the compartmental biophysical models with NEURON software
+  version 7.1 [54] coupled with Python 2.7.1. (www.python.org).
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002917
+* Managadze D, Lobkovsky AE, Wolf YI, Shabalina SA, Rogozin IB, et
+  al. (2013) The Vast, Conserved Mammalian lincRNome. PLoS Comput Biol
+  9(2): e1002917. doi:10.1371/journal.pcbi.1002917
+* koonin@ncbi.nlm.nih.gov
+* The TopHat-generated alignments were analyzed using an ad hoc Python
+  script that accepts alignments and genomic coordinates in SAM and
+  BED formats, respectively, and uses the HTSeq Python package
+  (http://www-huber.embl.de/users/anders/HT​Seq) to calculate the
+  number of aligned reads (“counts”).
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002942
+* Moore RC, Lee T, Theunissen FE (2013) Noise-invariant Neurons in the
+  Avian Auditory Cortex: Hearing the Song in Noise. PLoS Comput Biol
+  9(3): e1002942.doi:10.1371/journal.pcbi.1002942
+* theunissen@berkeley.edu
+* We used custom code written in MATLAB, Python and R for all of our analyses.
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002952
+* White DE, Kinney MA, McDevitt TC, Kemp ML (2013) Spatial Pattern
+  Dynamics of 3D Stem Cell Loss of Pluripotency via Rules-Based
+  Computational Modeling. PLoS Comput Biol 9(3):
+  e1002952. doi:10.1371/journal.pcbi.1002952
+* melissa.kemp@bme.gatech.edu (for contact author)
+* Rules-based modeling was achieved using a Python language with the
+  following freely available software packages: pyode, numpy,
+  matplotlib, python imaging library (PIL) and vpython. Physical
+  aggregation simulations of structure were performed using PyODE as the
+  underlying physics engine. Results were plotted via the aid of numpy
+  and matplotlib. The 2D aggregate slices were visualized using PIL. The
+  3D aggregate was visualized using vpython.
+* Designed the software used for model: DEW (but no contact email, and
+  Google doesn't turn one up easily).
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003052
+* Markowitz JE, Ivie E, Kligler L, Gardner TJ (2013) Long-range Order
+  in Canary Song. PLoS Comput Biol 9(5):
+  e1003052. doi:10.1371/journal.pcbi.1003052
+* timothyg@bu.edu
+* Spectrograms of the song were calculated in MATLAB
+* The annotated sonograms were then scanned and converted into
+  strings, and statistical analysis of the strings was performed using
+  custom MATLAB scripts.
+* No code available
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002978
+* Campolo D, Widjaja F, Xu H, Ang WT, Burdet E (2013) Analysis of
+  Accuracy in Pointing with Redundant Hand-held Tools: A Geometric
+  Approach to the Uncontrolled Manifold Method. PLoS Comput Biol 9(4):
+  e1002978. doi:10.1371/journal.pcbi.1002978
+* d.campolo@ntu.edu.sg
+* Then, for each (10 seconds) trial, the pwelch() function in the
+  MATLAB environment was used to estimate the average PSD over ten
+  non-overlapping time windows
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003040
+* Franci A, Drion G, Seutin V, Sepulchre R (2013) A Balance Equation
+  Determines a Switch in Neuronal Excitability. PLoS Comput Biol 9(5):
+  e1003040. doi:10.1371/journal.pcbi.1003040
+
+* r.sepulchre@ulg.ac.be
+* Numerical temporal traces of the different neurons (Figs. 1, 6, 8,
+  9) were reproduced by implementing in MATLAB (available at
+  http://www.mathworks.com) the original models as described in the
+  associated papers.
+* No actual code available
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002962
+* grau@informatik.uni-halle.de
+* Grau J, Wolf A, Reschke M, Bonas U, Posch S, et al. (2013)
+  Computational Predictions Provide Insights into the Biology of TAL
+  Effector Target Sites. PLoS Comput Biol 9(3): e1002962. doi:10.1371/journal.pcbi.1002962
+* For Target Finder, we use the publicly available version having
+  fixed binding    specificities
+* Implemented the software: JG AW
+* Worth asking for software?
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003077
+* Zhang Y, Kweon HK, Shively C, Kumar A, Andrews PC (2013) Towards
+  Systematic Discovery of Signaling Networks in Budding Yeast
+  Filamentous Growth Stress Response Using Interventional
+  Phosphorylation Data. PLoS Comput Biol 9(6):
+  e1003077. doi:10.1371/journal.pcbi.1003077
+* andrewsp@umich.edu
+* The analyses were implemented in R v2.15.1 and MATLAB R2012a. The
+  causal Bayesian network structure learning was performed in MATLAB
+  using BNT (Bayes Net Toolbox for MATLAB) v1.0.7 [96]. Cytoscape v2.8.3
+  [97], [98] was used for network visualization. 
+* No actual code provided
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003004
+* Mukhopadhyay H, Cordoba S-P, Maini PK, van der Merwe PA, Dushek O
+  (2013) Systems Model of T Cell Receptor Proximal Signaling Reveals
+  Emergent Ultrasensitivity. PLoS Comput Biol 9(3):
+  e1003004. doi:10.1371/journal.pcbi.1003004
+* anton.vandermerwe@path.ox.ac.uk; omer.dushek@path.ox.ac.uk
+* The system of ODEs representing the biochemical reaction network
+  based on the above scheme was generated in BioNetGen [16] (see [38],
+  [45]–[47] for additional examples of the application of BioNetGen to
+  model reaction networks) and integrated in Matlab
+* No code available
+
+Probably Not
+------------
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002803
+* Sunnåker M, Busetto AG, Numminen E, Corander J, Foll M, et
+  al. (2013) Approximate Bayesian Computation. PLoS Comput Biol 9(1):
+  e1002803. doi:10.1371/journal.pcbi.1002803
+* mikael.sunnaker@bsse.ethz.ch
+* Review article: mentions several packages for doing Bayesian
+  computation, but doesn't apparently add any new code.
+  
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003034
+* Parton DL, Tek A, Baaden M, Sansom MSP (2013) Formation of Raft-Like
+  Assemblies within Clusters of Influenza Hemagglutinin Observed by MD
+  Simulations. PLoS Comput Biol 9(4): e1003034. doi:10.1371/journal.pcbi.1003034
+* All simulations were conducted using the Gromacs package
+  (www.gromacs.org) [79] and the MARTINI CG force field [31],
+  [32]... Visualization was performed with VMD [81], and analysis with
+  the MDAnalysis Python library [82].
+* Used code, doesn't look like they wrote any.
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003114
+* Dorosh L, Kharenko OA, Rajagopalan N, Loewen MC, Stepanova M (2013)
+  Molecular Mechanisms in the Activation of Abscisic Acid Receptor
+  PYR1. PLoS Comput Biol 9(6):
+  e1003114. doi:10.1371/journal.pcbi.1003114
+* ms1@ualberta.ca
+* For the ABA molecule, Accelrys DS was used to add the hydrogens, and
+  acpype [41] and mktop [42] scripts were employed to evaluate the
+  charge distribution and generate topology files.
+* The coordinates of the modified 3NJO construct were subsequently
+  aligned with the reference 3K3K construct, and the corresponding RMSDs
+  were computed using VMD software [46].
+* All ligands extractions/insertions were created in silico with Accelrys Discovery Studio software [40]
+* Used code, but didn't write any of it
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002885
+* Joyce KE, Hayasaka S, Laurienti PJ (2013) The Human Functional Brain
+  Network Demonstrates Structural and Dynamical Resilience to Targeted
+  Attack. PLoS Comput Biol 9(1): e1002885. doi:10.1371/journal.pcbi.1002885
+* The weighted form of betweenness was calculated on the absolute value
+  of the correlation matrix using the MATLAB BGL package
+  (http://dgleich.github.com/matlab-bgl/).
+* That package is a large graph library toolbox - no mention of the
+  authors' own scripts.
+  
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002854
+* Cunningham H, Tablan V, Roberts A, Bontcheva K (2013) Getting More Out
+  of Biomedical Documents with GATE's Full Lifecycle Open Source Text
+  Analytics. PLoS Comput Biol 9(2): e1002854. doi:10.1371/journal.pcbi.1002854
+* hamish@gate.ac.uk
+* http://sourceforge.net/projects/gate/ is probably too big for us
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002949
+* Amin M, Porter SL, Soyer OS (2013) Split Histidine Kinases Enable
+  Ultrasensitivity and Bistability in Two-Component Signaling
+  Networks. PLoS Comput Biol 9(3):
+  e1002949. doi:10.1371/journal.pcbi.1002949
+* Mentions Oscill8 and XPP (http://www.math.pitt.edu/~bard/xpp/xpp.html),
+  both of which are too big for us.
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002918
+* Prévost C, McNamee D, Jessup RK, Bossaerts P, O'Doherty JP (2013)
+  Evidence for Model-based Computations in the Human Amygdala during
+  Pavlovian Conditioning. PLoS Comput Biol 9(2):
+  e1002918. doi:10.1371/journal.pcbi.1002918
+* Mentions code, didn't build any
+
+http://www.plosntds.org/article/info%3Adoi%2F10.1371%2Fjournal.pntd.0002045#s2
+* Giraudoux P, Raoul F, Pleydell D, Li T, Han X, et al. (2013) Drivers
+  of Echinococcus multilocularis Transmission in China: Small Mammal
+  Diversity, Landscape or Climate? PLoS Negl Trop Dis 7(3):
+  e2045. doi:10.1371/journal.pntd.0002045
+* Mentions code and use of R  packages, availability of pipeline not stated
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003147
+* Bajpai A, Feoktistova A, Chen J-S, McCollum D, Sato M, et al. (2013)
+  Dynamics of SIN Asymmetry Establishment. PLoS Comput Biol 9(7):
+  e1003147. doi:10.1371/journal.pcbi.1003147
+* mentions http://sourceforge.net/projects/oscill8/, which is too big
+  for us
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0067539
+* Perkins TT, Tay CY, Thirriot F, Marshall B (2013) Choosing a
+  Benchtop Sequencing Machine to Characterise Helicobacter pylori
+  Genomes. PLoS ONE 8(6): e67539. doi:10.1371/journal.pone.0067539
+* mentions software, doesn't build any
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003122
+* Shi C, Huang C-H, Devreotes PN, Iglesias PA (2013) Interaction of
+  Motility, Directional Sensing, and Polarity Modules Recreates the
+  Behaviors of Chemotaxing Cells. PLoS Comput Biol 9(7):
+  e1003122. doi:10.1371/journal.pcbi.1003122
+* The solution of the stochastic differential equations was obtained
+  using the SDE toolbox for Matlab [62].
+* Mentions software, didn't build any.
+
+False Alarm
+-----------
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002863
+* Koren O, Knights D, Gonzalez A, Waldron L, Segata N, et al. (2013) A
+  Guide to Enterotypes across the Human Body: Meta-Analysis of Microbial
+  Community Structures in Human Microbiome Datasets. PLoS Comput Biol
+  9(1): e1002863. doi:10.1371/journal.pcbi.1002863
+* rel222@cornell.edu
+* 'python' as in the snake
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003048
+* Bujnicki JM, Tiuryn J (2013) Bioinformatics and Computational
+  Biology in Poland. PLoS Comput Biol 9(5):
+  e1003048. doi:10.1371/journal.pcbi.1003048
+* survey of bioinformatics in Poland: mentions a Biopython
+  contributor, but doesn't have any code
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002888
+* Liepe J, Filippi S, Komorowski M, Stumpf MPH (2013) Maximizing the
+  Information Content of Experiments in Systems Biology. PLoS Comput
+  Biol 9(1): e1002888. doi:10.1371/journal.pcbi.1002888
+* About the math of experimental design, not about code
