@@ -1,15 +1,3 @@
-Scientific code we might review
-Please do not circulate yet
-
-For each PLOS article you look at, please add:
-- link
-- Citation (copy and paste)
-- contact email (from author list)
-- mentions of code
-- summary if appropriate
-
-Greg will be back online at 14:00 Eastern time Monday July 22
-
 Code Available Online
 ---------------------
 
@@ -28,24 +16,6 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003059
   samples analysed for the presence of mixed ST infection, and
   provides an example of the formatting on the input and output files.
 * Has code in article
-
-http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003130
-* Cron A, Gouttefangeas C, Frelinger J, Lin L, Singh SK, et al. (2013)
-  Hierarchical Modeling for Rare Event Detection and Cell Subset
-  Alignment across Flow Cytometry Samples. PLoS Comput Biol 9(7):
-  e1003130. doi:10.1371/journal.pcbi.1003130
-* cliburn.chan@duke.edu
-* SWC host
-* The code is written in the Python programming language, and will run
-  on regular CPUs, but is optimized for massively parallel computing
-  using the CUDA interface (a suitable Nvidia GPU is required for
-  CUDA).
-* we adapted the GPU computing ideas by Suchard et al [16], [21] used
-  in the “gpustats” python library to accelerate the computation.
-* Text S1 contains instructions on how to install the software and run
-  the examples provided.
-* Software S1 contains a Makefile, source code and scripts to generate
-  the figures shown in the manuscript.
 
 http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002976
 * Busse B, Smith S (2013) Automated Analysis of a Diverse Synapse
@@ -154,6 +124,7 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002988
   implement EXAMO, and step-by-step instructions for running these
   python scripts.
 * Some pieces are the right size for review.
+
 http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002967
 * Haynes WA, Higdon R, Stanberry L, Collins D, Kolker E (2013)
   Differential Expression Analysis for Pathways. PLoS Comput Biol 9(3):
@@ -265,9 +236,6 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003098
   licensed under the open source MIT License and available on GitHub
   (https://github.com/eladnoor/component-contribution).
 
-The ENCODE consortium has a VM that includes anlaysis scripts
-http://scofield.bx.psu.edu/~dannon/encodevm/ that we could review (?).
-
 http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003010
 * Lonardi S, Duma D, Alpert M, Cordero F, Beccuti M, et al. (2013)
   Combinatorial Pooling Enables Selective Sequencing of the Barley Gene
@@ -329,7 +297,8 @@ http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0065923
   to align species-specific contigs to the set of probes/UCEs we used
   for enrichment while removing reciprocal and non-reciprocal
   duplicate hits from the data set.
-* specific piece of code mentioned is https://github.com/faircloth-lab/2011-fairclothetal-systbiol-uce/blob/master/assembly/match_contigs_to_probes.py
+* specific piece of code mentioned is
+  https://github.com/faircloth-lab/2011-fairclothetal-systbiol-uce/blob/master/assembly/match_contigs_to_probes.py
 * other code at https://github.com/faircloth-lab/phyluce/
 
 http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0054848
@@ -608,6 +577,25 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003004
 
 Probably Not
 ------------
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003130
+* Cron A, Gouttefangeas C, Frelinger J, Lin L, Singh SK, et al. (2013)
+  Hierarchical Modeling for Rare Event Detection and Cell Subset
+  Alignment across Flow Cytometry Samples. PLoS Comput Biol 9(7):
+  e1003130. doi:10.1371/journal.pcbi.1003130
+* cliburn.chan@duke.edu
+* Has code available online (see below), but Cliburn hosted a Software Carpentry
+  bootcamp earlier this year.
+* The code is written in the Python programming language, and will run
+  on regular CPUs, but is optimized for massively parallel computing
+  using the CUDA interface (a suitable Nvidia GPU is required for
+  CUDA).
+* we adapted the GPU computing ideas by Suchard et al [16], [21] used
+  in the “gpustats” python library to accelerate the computation.
+* Text S1 contains instructions on how to install the software and run
+  the examples provided.
+* Software S1 contains a Makefile, source code and scripts to generate
+  the figures shown in the manuscript.
 
 http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002803
 * Sunnåker M, Busetto AG, Numminen E, Corander J, Foll M, et
