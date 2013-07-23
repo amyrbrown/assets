@@ -372,6 +372,36 @@ http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0062799
 * Siv.Andersson@icm.uu.se
 * Code at https://github.com/kasiazar/NeandertalBoneMetagenome (Perl)
 
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0053225
+* Nagarajan R, Jonkman JN (2013) A Neural Network Model to Translate
+  Brain Developmental Events across Mammalian Species. PLoS ONE 8(1):
+  e53225. doi:10.1371/journal.pone.0053225
+* rnagarajan@uky.edu
+* R code at: http://cran.r-project.org/web/packages/ttime/index.html
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0067883
+* Dugas M, Fritz F, Krumm R, Breil B (2013) Automated UMLS-Based
+  Comparison of Medical Forms. PLoS ONE 8(7):
+  e67883. doi:10.1371/journal.pone.0067883
+* dugas@uni-muenster.de
+* R code at: http://cran.r-project.org/web/packages/compareODM/index.html
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060536
+* Guillemot V, Bender A, Boulesteix A-L (2013) Iterative
+  Reconstruction of High-Dimensional Gaussian Graphical Models Based on
+  a New Method to Estimate Partial Correlations under Constraints. PLoS
+  ONE 8(4): e60536. doi:10.1371/journal.pone.0060536
+* boulesteix@ibe.med.uni-muenchen.de
+* R package: http://cran.r-project.org/web/packages/pacose/index.html
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002916
+* Alden K, Read M, Timmis J, Andrews PS, Veiga-Fernandes H, et
+  al. (2013) Spartan: A Comprehensive Tool for Understanding Uncertainty
+  in Simulations of Biological Systems. PLoS Comput Biol 9(2):
+  e1002916. doi:10.1371/journal.pcbi.1002916
+* k.j.alden@bham.ac.uk
+* R package: http://www.cs.york.ac.uk/spartan/ or http://cran.r-project.org/package=spartan
+
 Available Upon Request (or Equivalent)
 -------------------------------------
 
@@ -427,6 +457,14 @@ http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059504
 * a.bechini@ing.unipi.it
 * Describes lattice protein folding software, but doesn't appear to
   give a download link.
+
+ http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0063274
+* Moody EK, Sabo JL (2013) Crayfish Impact Desert River Ecosystem
+  Function and Litter-Dwelling Invertebrate Communities through
+  Association with Novel Detrital Resources. PLoS ONE 8(5):
+  e63274. doi:10.1371/journal.pone.0063274
+* eric.k.moody@asu.edu
+* Described R analysis, will provide code + data on request
 
 Code Mentioned, But Not Availability
 ------------------------------------
@@ -665,6 +703,28 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003122
   using the SDE toolbox for Matlab [62].
 * Mentions software, didn't build any.
 
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0069976
+* Pita R, Mira A, Beja P (2013) Influence of Land Mosaic Composition
+  and Structure on Patchy Populations: The Case of the Water Vole
+  (Arvicola sapidus) in Mediterranean Farmland. PLoS ONE 8(7):
+  e69976. doi:10.1371/journal.pone.0069976
+* Mentions but did not build software
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0069816
+* Tukiendorf A, Kaźmierski R, Michalak S (2013) The Taxonomy Statistic
+  Uncovers Novel Clinical Patterns in a Population of Ischemic Stroke
+  Patients. PLoS ONE 8(7): e69816. doi:10.1371/journal.pone.0069816
+* Pipeline mentioned, no code or statement of availability provided
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0066829#s5
+* Wu YT, Wubet T, Trogisch S, Both S, Scholten T, et al. (2013) Forest
+  Age and Plant Species Composition Determine the Soil Fungal Community
+  Composition in a Chinese Subtropical Forest. PLoS ONE 8(6):
+  e66829. doi:10.1371/journal.pone.0066829
+* Specific packages named for a couple analyses, non-specific "Stats
+  performed in R" also stated. no link to code provided.
+
+
 False Alarm
 -----------
 
@@ -688,3 +748,11 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002888
   Information Content of Experiments in Systems Biology. PLoS Comput
   Biol 9(1): e1002888. doi:10.1371/journal.pcbi.1002888
 * About the math of experimental design, not about code
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059862
+* Ahlgrim C, Pottgiesser T, Sander T, Schumacher YO, Baumstark MW
+  (2013) Flow Cytometric Assessment of Erythrocyte Shape through
+  Analysis of FSC Histograms: Use of Kurtosis and Implications for
+  Longitudinal Evaluation. PLoS ONE 8(3): e59862.
+  doi:10.1371/journal.pone.0059862
+* It looks like this was all done via GUI
