@@ -158,20 +158,6 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002880
   convert the R based model code to SBML.
 * https://github.com/wleepang/CuEfflux has code
 
-http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003029
-* Failmezger H, Jaegle B, Schrader A, Hülskamp M, Tresch A (2013)
-  Semi-automated 3D Leaf Reconstruction and Analysis of Trichome
-  Patterning from Light Microscopic Images. PLoS Comput Biol 9(4):
-  e1003029. doi:10.1371/journal.pcbi.1003029
-* martin.huelskamp@uni-koeln.de or tresch@mpipz.mpg.de
-* All the analysis steps were implemented in Matlab. The TrichEratops
-  software is available under the GPL3.0 license at
-  https://sourceforge.net/projects/tricher​atops/
-* Looked at file and appears perhaps just to be a binary. Additionally
-  I was unable to get the git clone to work - Message says "warning: You
-  appear to have cloned an empty repository".
-* Also mentions http://www.mathworks.com/matlabcentral/fileexchange/6110
-
 http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002801
 * Barbu CM, Hong A, Manne JM, Small DS, Quintanilla Calderón JE, et
   al. (2013) The Effects of City Streets on an Urban Disease
@@ -195,23 +181,6 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003063
   http://github.com/FriedbergLab/Uniprot-B​ias/ and on
   http://datadryad.org (the latter upon acceptance).
   
-http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003070
-* Solovyev A, Mi Q, Tzen Y-T, Brienza D, Vodovotz Y (2013) Hybrid
-  Equation/Agent-Based Model of Ischemia-Induced Hyperemia and Pressure
-  Ulcer Formation Predicts Greater Propensity to Ulcerate in Subjects
-  with Spinal Cord Injury. PLoS Comput Biol 9(5):
-  e1003070. doi:10.1371/journal.pcbi.1003070
-* qim3@pitt.edu or vodovotzy@upmc.edu
-* We implemented this ABM in SPARK (Simple Platform for Agent-based
-  Representation of Knowledge; freely downloadable at
-  http://www.pitt.edu/~cirm/spark) [34]
-* Requires that you fill out a web form to access code, but
-  automatically takes you to download screen.
-* Java based
-* Calibration was performed using Matlab R2011 (The Mathworks, Inc.,
-  Natick, MA, USA). We used the explicit expression of I2(t) for finding
-  best-fit parameters.
-
 http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002935
 * Feng Z, Fang G, Korlach J, Clark T, Luong K, et al. (2013) Detecting
   DNA Modifications from SMRT Sequencing Data by Modeling Sequence
@@ -569,6 +538,38 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002888
   Information Content of Experiments in Systems Biology. PLoS Comput
   Biol 9(1): e1002888. doi:10.1371/journal.pcbi.1002888
 * About the math of experimental design, not about code
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003029
+* Failmezger H, Jaegle B, Schrader A, Hülskamp M, Tresch A (2013)
+  Semi-automated 3D Leaf Reconstruction and Analysis of Trichome
+  Patterning from Light Microscopic Images. PLoS Comput Biol 9(4):
+  e1003029. doi:10.1371/journal.pcbi.1003029
+* martin.huelskamp@uni-koeln.de or tresch@mpipz.mpg.de
+* All the analysis steps were implemented in Matlab. The TrichEratops
+  software is available under the GPL3.0 license at
+  https://sourceforge.net/projects/tricher​atops/
+* Looked at file and appears perhaps just to be a binary. Additionally
+  I was unable to get the git clone to work - Message says "warning: You
+  appear to have cloned an empty repository".
+* Also mentions http://www.mathworks.com/matlabcentral/fileexchange/6110
+
+http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003070
+* Solovyev A, Mi Q, Tzen Y-T, Brienza D, Vodovotz Y (2013) Hybrid
+  Equation/Agent-Based Model of Ischemia-Induced Hyperemia and Pressure
+  Ulcer Formation Predicts Greater Propensity to Ulcerate in Subjects
+  with Spinal Cord Injury. PLoS Comput Biol 9(5):
+  e1003070. doi:10.1371/journal.pcbi.1003070
+* qim3@pitt.edu or vodovotzy@upmc.edu
+* We implemented this ABM in SPARK (Simple Platform for Agent-based
+  Representation of Knowledge; freely downloadable at
+  http://www.pitt.edu/~cirm/spark) [34]
+* Requires that you fill out a web form to access code, but
+  automatically takes you to download screen.
+* Java based
+* Calibration was performed using Matlab R2011 (The Mathworks, Inc.,
+  Natick, MA, USA). We used the explicit expression of I2(t) for finding
+  best-fit parameters.
+* Available as a compiled application behind a form fill-in.
 
 ------
 
