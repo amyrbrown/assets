@@ -1,3 +1,6 @@
+In PLOS Comp Bio
+----------------
+
 Code Available Online
 ---------------------
 
@@ -129,6 +132,7 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002967
 * Haynes WA, Higdon R, Stanberry L, Collins D, Kolker E (2013)
   Differential Expression Analysis for Pathways. PLoS Comput Biol 9(3):
   e1002967. doi:10.1371/journal.pcbi.1002967
+* winston.haynes@seattlechildrens.org
 * This article has been formally corrected to address the following
   errors: A minor correction has been made to the function
   “meanExpDict”, where the conditional statement was flipped during
@@ -213,6 +217,7 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002935
   DNA Modifications from SMRT Sequencing Data by Modeling Sequence
   Context Dependence of Polymerase Kinetic. PLoS Comput Biol 9(3):
   e1002935. doi:10.1371/journal.pcbi.1002935
+* whwong@stanford.edu or eric.schadt@mssm.edu
 * We implemented the model in a R package named seqPatch, which is
   available at https://github.com/zhixingfeng/seqPatch.
 * https://github.com/zhixingfeng/seqPatch has code
@@ -241,6 +246,7 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003010
   Combinatorial Pooling Enables Selective Sequencing of the Barley Gene
   Space. PLoS Comput Biol 9(4):
   e1003010. doi:10.1371/journal.pcbi.1003010
+* stelo@cs.ucr.edu
 * HASHFILTER available at http://www.cs.ucr.edu/~stelo/hashfilter/
 * about 4000 lines of C++, but some files are only 250 lines long
 
@@ -248,120 +254,9 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002875#
 * Beck AH, Knoblauch NW, Hefti MM, Kaplan J, Schnitt SJ, et al. (2013)
   Significance Analysis of Prognostic Signatures. PLoS Comput Biol 9(1):
   e1002875. doi:10.1371/journal.pcbi.1002875
+* abeck2@bidmc.harvard.edu or bhaibeka@ircm.qc.ca
 * Mentions R code and datasets on Dryad
 * http://datadryad.org/resource/doi:10.5061/dryad.mk471
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0066922
-* Barton MD, Barton HA (2013) Genomer — A Swiss Army Knife for Genome
-  Scaffolding. PLoS ONE 8(6): e66922. doi:10.1371/journal.pone.0066922
-* mail@michaelbarton.me.uk
-* We have released Genomer as open source software on GitHub
-* https://github.com/michaelbarton/genomer (link broken    in original)
-* Ruby!
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0054471
-* Szczesny P, Mykowiecka A, Pawłowski K, Grynberg M (2013) Distinct
-  Protein Classes in Human Red Cell Proteome Revealed by Similarity of
-  Phylogenetic Profiles. PLoS ONE 8(1):
-  e54471. doi:10.1371/journal.pone.0054471
-* greenb@ibb.waw.pl, k.pawlowski@nencki.gov.pl
-* Code at https://github.com/agnmyk/simphypro
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0057521
-* Costea PI, Lundeberg J, Akan P (2013) TagGD: Fast and Accurate
-  Software for DNA Tag Generation and Demultiplexing. PLoS ONE 8(3):
-  e57521. doi:10.1371/journal.pone.0057521
-* pelin.akan@scilifelab.se
-* We here report TagGD (DNA-based Tag Generator and Demultiplexor), a
-  fully-customisable, fast and accurate software package that can
-  generate thousands of barcodes satisfying user-defined constraints and
-  can guarantee full demultiplexing accuracy.
-* https://github.com/pelinakan/UBD
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0065923
-* Faircloth BC, Sorenson L, Santini F, Alfaro ME (2013) A Phylogenomic
-  Perspective on the Radiation of Ray-Finned Fishes Based upon
-  Targeted Sequencing of Ultraconserved Elements (UCEs). PLoS ONE
-  8(6): e65923. doi:10.1371/journal.pone.0065923
-* michaelalfaro@ucla.edu
-* After sequencing, we trimmed adapter contamination, low quality
-  bases, and sequences containing ambiguous base calls using a
-  pipeline we constructed
-  (https://github.com/faircloth-lab/illumip​rocessor). We assembled
-  reads, on a species-by-species basis, into contigs using Velvet [40]
-  and VelvetOptimiser
-  (https://github.com/Victorian-Bioinformat​ics-Consortium/VelvetOptimiser). Following
-  assembly, we used a software package
-  (https://github.com/faircloth-lab/phyluce) containing a custom
-  Python program (match_contigs_to_probes.py) integrating LASTZ [36]
-  to align species-specific contigs to the set of probes/UCEs we used
-  for enrichment while removing reciprocal and non-reciprocal
-  duplicate hits from the data set.
-* specific piece of code mentioned is
-  https://github.com/faircloth-lab/2011-fairclothetal-systbiol-uce/blob/master/assembly/match_contigs_to_probes.py
-* other code at https://github.com/faircloth-lab/phyluce/
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0054848
-* McCormack JE, Harvey MG, Faircloth BC, Crawford NG, Glenn TC, et
-  al. (2013) A Phylogeny of Birds Based on Over 1,500 Loci Collected by
-  Target Enrichment and High-Throughput Sequencing. PLoS ONE 8(1):
-  e54848. doi:10.1371/journal.pone.0054848
-* mccormack@oxy.edu
-* mentions https://github.com/ngcrawford/CloudForest (Python)
-* and https://gist.github.com/brantfaircloth/47e03463db0573c4252f
-  (steps taken)
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0055871
-* Gibson SM, Ficklin SP, Isaacson S, Luo F, Feltus FA, et al. (2013)
-  Massive-Scale Gene Co-Expression Network Construction and Robustness
-  Testing Using Random Matrix Theory. PLoS ONE 8(2):
-  e55871. doi:10.1371/journal.pone.0055871
-* ffeltus@clemson.edu
-* https://github.com/spficklin/RMTGeneNet has C code
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0056859
-* Matsen IV FA, Evans SN (2013) Edge Principal Components and Squash
-  Clustering: Using the Special Structure of Phylogenetic Placement Data
-  for Sample Comparison. PLoS ONE 8(3):
-  e56859. doi:10.1371/journal.pone.0056859
-* matsen@fhcrc.org
-* http://fhcrc.github.com/microbiome-demo/ has shell scripts 'n' stuff
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0066643
-* Eren AM, Vineis JH, Morrison HG, Sogin ML (2013) A Filtering Method
-  to Generate High Quality Short Reads Using Illumina Paired-End
-  Technology. PLoS ONE 8(6): e66643. doi:10.1371/journal.pone.0066643
-* sogin@mbl.edu.
-* https://github.com/meren/illumina-utils (Python)
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0062799
-* Zaremba-Niedźwiedzka K, Andersson SGE (2013) No Ancient DNA Damage
-  in Actinobacteria from the Neanderthal Bone. PLoS ONE 8(5):
-  e62799. doi:10.1371/journal.pone.0062799
-* Siv.Andersson@icm.uu.se
-* Code at https://github.com/kasiazar/NeandertalBoneMetagenome (Perl)
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0053225
-* Nagarajan R, Jonkman JN (2013) A Neural Network Model to Translate
-  Brain Developmental Events across Mammalian Species. PLoS ONE 8(1):
-  e53225. doi:10.1371/journal.pone.0053225
-* rnagarajan@uky.edu
-* R code at: http://cran.r-project.org/web/packages/ttime/index.html
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0067883
-* Dugas M, Fritz F, Krumm R, Breil B (2013) Automated UMLS-Based
-  Comparison of Medical Forms. PLoS ONE 8(7):
-  e67883. doi:10.1371/journal.pone.0067883
-* dugas@uni-muenster.de
-* R code at: http://cran.r-project.org/web/packages/compareODM/index.html
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060536
-* Guillemot V, Bender A, Boulesteix A-L (2013) Iterative
-  Reconstruction of High-Dimensional Gaussian Graphical Models Based on
-  a New Method to Estimate Partial Correlations under Constraints. PLoS
-  ONE 8(4): e60536. doi:10.1371/journal.pone.0060536
-* boulesteix@ibe.med.uni-muenchen.de
-* R package: http://cran.r-project.org/web/packages/pacose/index.html
 
 http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002916
 * Alden K, Read M, Timmis J, Andrews PS, Veiga-Fernandes H, et
@@ -396,45 +291,6 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003053
 * The 'cgptoolbox' stuff is cited earlier, but we should get the "on
   request" code.
   
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0061217
-* McMurdie PJ, Holmes S (2013) phyloseq: An R Package for Reproducible
-  Interactive Analysis and Graphics of Microbiome Census Data. PLoS
-  ONE 8(4): e61217. doi:10.1371/journal.pone.0061217
-* R
-* Release: http://www.bioconductor.org/packages/release/bioc/html/phyloseq.html
-* Development git: http://joey711.github.com/phyloseq/
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0062224
-* Orsini M, Carcangiu S, Cuccuru G, Uva P, Tramontano A (2013) The
-  PARIGA Server for Real Time Filtering and Analysis of Reciprocal BLAST
-  Results. PLoS ONE 8(5): e62224. doi:10.1371/journal.pone.0062224
-* orsini@crs4.it
-* Describes a server they've built, but doesn't appear to include a
-  link to source?
-  
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0053743
-* Ruhs A, Cemic F, Braun T, Krüger M (2013) ResA3: A Web Tool for
-  Resampling Analysis of Arbitrary Annotations. PLoS ONE 8(1):
-  e53743. doi:10.1371/journal.pone.0053743
-* Aaron.Ruhs@mpi-bn.mpg.de, marcus.krueger@mpi-bn.mpg.de
-* Describes ResA3, but doesn't say where code can be obtained.
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059504
-* Bechini A (2013) On the Characterization and Software Implementation
-  of General Protein Lattice Models. PLoS ONE 8(3): e59504.
-  doi:10.1371/journal.pone.0059504
-* a.bechini@ing.unipi.it
-* Describes lattice protein folding software, but doesn't appear to
-  give a download link.
-
- http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0063274
-* Moody EK, Sabo JL (2013) Crayfish Impact Desert River Ecosystem
-  Function and Litter-Dwelling Invertebrate Communities through
-  Association with Novel Detrital Resources. PLoS ONE 8(5):
-  e63274. doi:10.1371/journal.pone.0063274
-* eric.k.moody@asu.edu
-* Described R analysis, will provide code + data on request
-
 Code Mentioned, But Not Availability
 ------------------------------------
 
@@ -532,7 +388,6 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003040
 * Franci A, Drion G, Seutin V, Sepulchre R (2013) A Balance Equation
   Determines a Switch in Neuronal Excitability. PLoS Comput Biol 9(5):
   e1003040. doi:10.1371/journal.pcbi.1003040
-
 * r.sepulchre@ulg.ac.be
 * Numerical temporal traces of the different neurons (Figs. 1, 6, 8,
   9) were reproduced by implementing in MATLAB (available at
@@ -691,28 +546,6 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003122
   using the SDE toolbox for Matlab [62].
 * Mentions software, didn't build any.
 
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0069976
-* Pita R, Mira A, Beja P (2013) Influence of Land Mosaic Composition
-  and Structure on Patchy Populations: The Case of the Water Vole
-  (Arvicola sapidus) in Mediterranean Farmland. PLoS ONE 8(7):
-  e69976. doi:10.1371/journal.pone.0069976
-* Mentions but did not build software
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0069816
-* Tukiendorf A, Kaźmierski R, Michalak S (2013) The Taxonomy Statistic
-  Uncovers Novel Clinical Patterns in a Population of Ischemic Stroke
-  Patients. PLoS ONE 8(7): e69816. doi:10.1371/journal.pone.0069816
-* Pipeline mentioned, no code or statement of availability provided
-
-http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0066829#s5
-* Wu YT, Wubet T, Trogisch S, Both S, Scholten T, et al. (2013) Forest
-  Age and Plant Species Composition Determine the Soil Fungal Community
-  Composition in a Chinese Subtropical Forest. PLoS ONE 8(6):
-  e66829. doi:10.1371/journal.pone.0066829
-* Specific packages named for a couple analyses, non-specific "Stats
-  performed in R" also stated. no link to code provided.
-
-
 False Alarm
 -----------
 
@@ -736,6 +569,195 @@ http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002888
   Information Content of Experiments in Systems Biology. PLoS Comput
   Biol 9(1): e1002888. doi:10.1371/journal.pcbi.1002888
 * About the math of experimental design, not about code
+
+------
+
+In PLOS ONE
+-----------
+
+Code Available Online
+---------------------
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0066922
+* Barton MD, Barton HA (2013) Genomer — A Swiss Army Knife for Genome
+  Scaffolding. PLoS ONE 8(6): e66922. doi:10.1371/journal.pone.0066922
+* mail@michaelbarton.me.uk
+* We have released Genomer as open source software on GitHub
+* https://github.com/michaelbarton/genomer (link broken    in original)
+* Ruby!
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0054471
+* Szczesny P, Mykowiecka A, Pawłowski K, Grynberg M (2013) Distinct
+  Protein Classes in Human Red Cell Proteome Revealed by Similarity of
+  Phylogenetic Profiles. PLoS ONE 8(1):
+  e54471. doi:10.1371/journal.pone.0054471
+* greenb@ibb.waw.pl, k.pawlowski@nencki.gov.pl
+* Code at https://github.com/agnmyk/simphypro
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0057521
+* Costea PI, Lundeberg J, Akan P (2013) TagGD: Fast and Accurate
+  Software for DNA Tag Generation and Demultiplexing. PLoS ONE 8(3):
+  e57521. doi:10.1371/journal.pone.0057521
+* pelin.akan@scilifelab.se
+* We here report TagGD (DNA-based Tag Generator and Demultiplexor), a
+  fully-customisable, fast and accurate software package that can
+  generate thousands of barcodes satisfying user-defined constraints and
+  can guarantee full demultiplexing accuracy.
+* https://github.com/pelinakan/UBD
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0065923
+* Faircloth BC, Sorenson L, Santini F, Alfaro ME (2013) A Phylogenomic
+  Perspective on the Radiation of Ray-Finned Fishes Based upon
+  Targeted Sequencing of Ultraconserved Elements (UCEs). PLoS ONE
+  8(6): e65923. doi:10.1371/journal.pone.0065923
+* michaelalfaro@ucla.edu
+* After sequencing, we trimmed adapter contamination, low quality
+  bases, and sequences containing ambiguous base calls using a
+  pipeline we constructed
+  (https://github.com/faircloth-lab/illumip​rocessor). We assembled
+  reads, on a species-by-species basis, into contigs using Velvet [40]
+  and VelvetOptimiser
+  (https://github.com/Victorian-Bioinformat​ics-Consortium/VelvetOptimiser). Following
+  assembly, we used a software package
+  (https://github.com/faircloth-lab/phyluce) containing a custom
+  Python program (match_contigs_to_probes.py) integrating LASTZ [36]
+  to align species-specific contigs to the set of probes/UCEs we used
+  for enrichment while removing reciprocal and non-reciprocal
+  duplicate hits from the data set.
+* specific piece of code mentioned is
+  https://github.com/faircloth-lab/2011-fairclothetal-systbiol-uce/blob/master/assembly/match_contigs_to_probes.py
+* other code at https://github.com/faircloth-lab/phyluce/
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0054848
+* McCormack JE, Harvey MG, Faircloth BC, Crawford NG, Glenn TC, et
+  al. (2013) A Phylogeny of Birds Based on Over 1,500 Loci Collected by
+  Target Enrichment and High-Throughput Sequencing. PLoS ONE 8(1):
+  e54848. doi:10.1371/journal.pone.0054848
+* mccormack@oxy.edu
+* mentions https://github.com/ngcrawford/CloudForest (Python)
+* and https://gist.github.com/brantfaircloth/47e03463db0573c4252f
+  (steps taken)
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0055871
+* Gibson SM, Ficklin SP, Isaacson S, Luo F, Feltus FA, et al. (2013)
+  Massive-Scale Gene Co-Expression Network Construction and Robustness
+  Testing Using Random Matrix Theory. PLoS ONE 8(2):
+  e55871. doi:10.1371/journal.pone.0055871
+* ffeltus@clemson.edu
+* https://github.com/spficklin/RMTGeneNet has C code
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0056859
+* Matsen IV FA, Evans SN (2013) Edge Principal Components and Squash
+  Clustering: Using the Special Structure of Phylogenetic Placement Data
+  for Sample Comparison. PLoS ONE 8(3):
+  e56859. doi:10.1371/journal.pone.0056859
+* matsen@fhcrc.org
+* http://fhcrc.github.com/microbiome-demo/ has shell scripts 'n' stuff
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0066643
+* Eren AM, Vineis JH, Morrison HG, Sogin ML (2013) A Filtering Method
+  to Generate High Quality Short Reads Using Illumina Paired-End
+  Technology. PLoS ONE 8(6): e66643. doi:10.1371/journal.pone.0066643
+* sogin@mbl.edu.
+* https://github.com/meren/illumina-utils (Python)
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0062799
+* Zaremba-Niedźwiedzka K, Andersson SGE (2013) No Ancient DNA Damage
+  in Actinobacteria from the Neanderthal Bone. PLoS ONE 8(5):
+  e62799. doi:10.1371/journal.pone.0062799
+* Siv.Andersson@icm.uu.se
+* Code at https://github.com/kasiazar/NeandertalBoneMetagenome (Perl)
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0053225
+* Nagarajan R, Jonkman JN (2013) A Neural Network Model to Translate
+  Brain Developmental Events across Mammalian Species. PLoS ONE 8(1):
+  e53225. doi:10.1371/journal.pone.0053225
+* rnagarajan@uky.edu
+* R code at: http://cran.r-project.org/web/packages/ttime/index.html
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0067883
+* Dugas M, Fritz F, Krumm R, Breil B (2013) Automated UMLS-Based
+  Comparison of Medical Forms. PLoS ONE 8(7):
+  e67883. doi:10.1371/journal.pone.0067883
+* dugas@uni-muenster.de
+* R code at: http://cran.r-project.org/web/packages/compareODM/index.html
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060536
+* Guillemot V, Bender A, Boulesteix A-L (2013) Iterative
+  Reconstruction of High-Dimensional Gaussian Graphical Models Based on
+  a New Method to Estimate Partial Correlations under Constraints. PLoS
+  ONE 8(4): e60536. doi:10.1371/journal.pone.0060536
+* boulesteix@ibe.med.uni-muenchen.de
+* R package: http://cran.r-project.org/web/packages/pacose/index.html
+
+Available Upon Request (or Equivalent)
+-------------------------------------
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0061217
+* McMurdie PJ, Holmes S (2013) phyloseq: An R Package for Reproducible
+  Interactive Analysis and Graphics of Microbiome Census Data. PLoS
+  ONE 8(4): e61217. doi:10.1371/journal.pone.0061217
+* R
+* Release: http://www.bioconductor.org/packages/release/bioc/html/phyloseq.html
+* Development git: http://joey711.github.com/phyloseq/
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0062224
+* Orsini M, Carcangiu S, Cuccuru G, Uva P, Tramontano A (2013) The
+  PARIGA Server for Real Time Filtering and Analysis of Reciprocal BLAST
+  Results. PLoS ONE 8(5): e62224. doi:10.1371/journal.pone.0062224
+* orsini@crs4.it
+* Describes a server they've built, but doesn't appear to include a
+  link to source?
+  
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0053743
+* Ruhs A, Cemic F, Braun T, Krüger M (2013) ResA3: A Web Tool for
+  Resampling Analysis of Arbitrary Annotations. PLoS ONE 8(1):
+  e53743. doi:10.1371/journal.pone.0053743
+* Aaron.Ruhs@mpi-bn.mpg.de, marcus.krueger@mpi-bn.mpg.de
+* Describes ResA3, but doesn't say where code can be obtained.
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059504
+* Bechini A (2013) On the Characterization and Software Implementation
+  of General Protein Lattice Models. PLoS ONE 8(3): e59504.
+  doi:10.1371/journal.pone.0059504
+* a.bechini@ing.unipi.it
+* Describes lattice protein folding software, but doesn't appear to
+  give a download link.
+
+ http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0063274
+* Moody EK, Sabo JL (2013) Crayfish Impact Desert River Ecosystem
+  Function and Litter-Dwelling Invertebrate Communities through
+  Association with Novel Detrital Resources. PLoS ONE 8(5):
+  e63274. doi:10.1371/journal.pone.0063274
+* eric.k.moody@asu.edu
+* Described R analysis, will provide code + data on request
+
+Probably Not
+------------
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0069976
+* Pita R, Mira A, Beja P (2013) Influence of Land Mosaic Composition
+  and Structure on Patchy Populations: The Case of the Water Vole
+  (Arvicola sapidus) in Mediterranean Farmland. PLoS ONE 8(7):
+  e69976. doi:10.1371/journal.pone.0069976
+* Mentions but did not build software
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0069816
+* Tukiendorf A, Kaźmierski R, Michalak S (2013) The Taxonomy Statistic
+  Uncovers Novel Clinical Patterns in a Population of Ischemic Stroke
+  Patients. PLoS ONE 8(7): e69816. doi:10.1371/journal.pone.0069816
+* Pipeline mentioned, no code or statement of availability provided
+
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0066829#s5
+* Wu YT, Wubet T, Trogisch S, Both S, Scholten T, et al. (2013) Forest
+  Age and Plant Species Composition Determine the Soil Fungal Community
+  Composition in a Chinese Subtropical Forest. PLoS ONE 8(6):
+  e66829. doi:10.1371/journal.pone.0066829
+* Specific packages named for a couple analyses, non-specific "Stats
+  performed in R" also stated. no link to code provided.
+
+False Alarm
+-----------
 
 http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059862
 * Ahlgrim C, Pottgiesser T, Sander T, Schumacher YO, Baumstark MW
