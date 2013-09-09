@@ -383,14 +383,13 @@ inconsistencies.  To avoid this programmers follow the DRY Principle
 \cite{hunt1999}, for ``don't repeat yourself'', which applies to both
 data and code.
 
-For data, this maxim holds that \practice{every piece of data must
-  have a single authoritative representation in the system}. For
-example, physical constants should be defined exactly once to ensure
-that the entire program is using the same value, and raw data files
-should have a single canonical version. Similarly, every location
-where data was collected should be recorded once and given an ID.
-Every observation from that site should then include that ID instead
-of duplicating the site's latitude and longitude.
+For data, this maxim holds that \practice{every piece of data must have a single
+  authoritative representation in the system}. For example, physical constants
+should be defined exactly once to ensure that the entire program is using the
+same value, and raw data files should have a single canonical
+version. Similarly, for geographic data every location should be recorded
+once and given an ID. Every observation from that site should then include that
+ID instead of duplicating the site's latitude and longitude.
 
 The DRY Principle applies to code at two scales. At small scales,
 \practice{code should be modularized rather than copied and pasted}.
